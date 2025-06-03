@@ -17,8 +17,8 @@ function Header() {
               className="pic"
               src="/logo.png"
               alt="FitMuse"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
             />
           </div>
 
@@ -46,7 +46,7 @@ function Header() {
               </li>
 
               <li>
-                <Link href="/">
+                <Link href="/login">
                   <FaRegUser />
                 </Link>
               </li>
@@ -95,8 +95,10 @@ function Header() {
             </ul>
           </div>
           <div className="formheader">
-            <form>
-              <p><CiSearch /></p>
+            <form className="form">
+              <p>
+                <CiSearch />
+              </p>
               <input
                 type="search"
                 placeholder="search product, articles, fqa,..."

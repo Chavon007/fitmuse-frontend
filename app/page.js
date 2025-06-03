@@ -7,7 +7,7 @@ import Accesories from "@/component/accesories";
 
 export default function Home() {
   return (
-    <div>
+    <div className="container">
       <Banner />
       <Trends />
       <Summer />
