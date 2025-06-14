@@ -7,6 +7,7 @@ const AuthContext = createContext();
 function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [token, setToken] = useState(null);
+  const [loading, setLoading] = useState(true);
   const router = useRouter();
 
   const login = async (email, password) => {
@@ -26,6 +27,7 @@ function AuthProvider({ children }) {
         setUser(data.user);
         setToken(data.token);
         localStorage.setItem("token", data.token);
+        localStorage.setItem("user", JSON.stringify(data.user));
         router.push("/cart");
       } else {
         console.error(data.message);
@@ -39,7 +41,10 @@ function AuthProvider({ children }) {
     const verifyUser = async () => {
       const storedToken = localStorage.getItem("token");
 
-      if (!storedToken) return;
+      if (!storedToken) {
+        setLoading(false);
+        return;
+      }
 
       try {
         const res = await fetch(
@@ -66,16 +71,18 @@ function AuthProvider({ children }) {
         setUser(null);
         setToken(null);
         localStorage.removeItem("token");
+      } finally {
+        setLoading(false);
       }
     };
     verifyUser();
   }, []);
   return (
-    <AuthContext.Provider value={{ user, token, login }}>
+    <AuthContext.Provider value={{ user, token, login, loading }}>
       {children}
     </AuthContext.Provider>
   );
 }
 export default AuthProvider;
 
-export const useAuth = () => useContext(AuthContext)
+export const useAuth = () => useContext(AuthContext);
