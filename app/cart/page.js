@@ -9,6 +9,8 @@ function MainCart() {
   const router = useRouter();
 
   useEffect(() => {
+    console.log("MainCart → loading:", loading);
+    console.log("MainCart → user:", user);
     if (!loading && user === null) {
       router.push("/login");
     }

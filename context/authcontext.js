@@ -40,8 +40,10 @@ function AuthProvider({ children }) {
   useEffect(() => {
     const verifyUser = async () => {
       const storedToken = localStorage.getItem("token");
+      console.log("Stored Token:", storedToken);
 
       if (!storedToken) {
+        console.log("No token found in localStorage.");
         setLoading(false);
         return;
       }
@@ -57,17 +59,20 @@ function AuthProvider({ children }) {
         );
 
         const data = await res.json();
+        console.log("Verify User Response:", data);
 
         if (res.ok) {
           setUser(data.user);
           setToken(storedToken);
+          console.log("✅ User verified and set in context:", data.user);
         } else {
+          console.warn("❌ Invalid token or verification failed.");
           setUser(null);
           setToken(null);
           localStorage.removeItem("token");
         }
       } catch (err) {
-        console.error("Verification Error:", err);
+        console.error("❌ Error verifying user:", err);
         setUser(null);
         setToken(null);
         localStorage.removeItem("token");
@@ -75,8 +80,10 @@ function AuthProvider({ children }) {
         setLoading(false);
       }
     };
+
     verifyUser();
   }, []);
+
   return (
     <AuthContext.Provider value={{ user, token, login, loading }}>
       {children}
