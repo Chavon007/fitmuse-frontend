@@ -6,6 +6,7 @@ import Image from "next/image";
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { useAuth } from "@/context/authcontext";
 function User() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -13,45 +14,24 @@ function User() {
   const [isSuccess, setIsSuccess] = useState(false);
 
   const router = useRouter();
+  const { login } = useAuth();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsSuccess(false);
 
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       setMessage("Email must contain .com");
       return;
     } else if (password.length < 8) {
-      setMessage("Password must contain atleast 8 characters");
+      setMessage("Password must contain at least 8 characters");
       return;
     }
+
     try {
-      const res = await fetch(
-        `${process.env.NEXT_PUBLIC_DOMAIN_NAME}/api/auth/login`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ email, password }),
-        }
-      );
-
-      const data = await res.json();
-
-      if (res.ok) {
-        setMessage(data.message);
-        setIsSuccess(true);
-        router.push("/cart");
-        return;
-      } else {
-        setMessage(data.message || "Login Failed");
-        return;
-      }
+      await login(email, password); 
     } catch (error) {
-      console.error(error);
-      setMessage("Create an account first");
-      return;
+      console.error("Login error:", error);
+      setMessage("Login failed. Try again.");
     }
   };
   return (
