@@ -9,13 +9,16 @@ import Image from "next/image";
 function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div
+    <div className="container">
+         <div
       className={`${className} custom-arrow next-arrow`}
       style={{ ...style }}
       onClick={onClick}
     >
       <FaArrowRight />
     </div>
+    </div>
+   
   );
 }
 

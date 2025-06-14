@@ -3,7 +3,9 @@ import Image from "next/image";
 
 function Summer() {
   return (
-    <div className="summer">
+
+    <div className="container">
+      <div className="summer">
       <div className="summmer-content">
         <div className="summer-content-header">
           <h2>SPRING/SUMMER 2021</h2>
@@ -110,6 +112,8 @@ function Summer() {
         </div>
       </div>
     </div>
+    </div>
+    
   );
 }
 export default Summer;

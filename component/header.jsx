@@ -10,7 +10,8 @@ import { LuScanQrCode } from "react-icons/lu";
 
 function Header() {
   return (
-    <div className="Header">
+    <div className="container">
+      <div className="Header">
       <div className="navHead">
         <div className="navbar">
           <div className="navbar-header">
@@ -116,6 +117,7 @@ function Header() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

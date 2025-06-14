@@ -1,6 +1,7 @@
 function Banner() {
   return (
-    <div className="banner">
+     <div className="container">
+      <div className="banner">
       <div className="bannner2">
         <div className="banner-header">
           <h2>NEW COLLECTION</h2>
@@ -8,6 +9,8 @@ function Banner() {
         </div>
       </div>
     </div>
+     </div>
+    
   );
 }
 export default Banner;

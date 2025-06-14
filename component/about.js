@@ -4,7 +4,8 @@ import Link from "next/link";
 
 function About() {
   return (
-    <div className="about">
+    <div className="container">
+      <div className="about">
       <div className="about-content">
         <div className="about_text">
           <h3>It’s all about you</h3>
@@ -25,6 +26,7 @@ function About() {
           <Image src="/r3.jpg" alt="tranning" width={1000} height={100}  style={{width: "750px", height: "420px"}}/>
         </div>
       </div>
+    </div>
     </div>
   );
 }
