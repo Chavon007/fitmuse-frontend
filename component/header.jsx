@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+
 import { BsHeadset } from "react-icons/bs";
 import { CiSearch } from "react-icons/ci";
 import { FaMapMarkerAlt, FaRegHeart, FaRegUser } from "react-icons/fa";
-import { CiGift } from "react-icons/ci";
+import { FaShoppingCart } from "react-icons/fa";
 import { CiMicrophoneOn } from "react-icons/ci";
 import { LuScanQrCode } from "react-icons/lu";
 
@@ -13,24 +14,26 @@ function Header() {
       <div className="navHead">
         <div className="navbar">
           <div className="navbar-header">
-            <Image
+           <Link href="/">
+             <Image
               className="pic"
               src="/logo.png"
               alt="FitMuse"
               width={50}
               height={50}
             />
+           </Link>
           </div>
 
           <div className="navbar-support">
             <ul>
               <li>
-                <Link href="/">
+                <Link href="/support">
                   <BsHeadset /> <p>Support</p>
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="/store">
                   <FaMapMarkerAlt /> <p>Find a store</p>
                 </Link>
               </li>
@@ -40,7 +43,7 @@ function Header() {
           <div className="navbar-user">
             <ul>
               <li>
-                <Link href="/">
+                <Link href="/wishlist">
                   <FaRegHeart />
                 </Link>
               </li>
@@ -52,8 +55,8 @@ function Header() {
               </li>
 
               <li>
-                <Link href="/">
-                  <CiGift />
+                <Link href="/cart">
+                  <FaShoppingCart />
                 </Link>
               </li>
             </ul>

@@ -1,0 +1,210 @@
+/* [project]/component/cartSiderBar/cartsidebar.css [app-client] (css) */
+.cart-overlay {
+  z-index: 999;
+  background: #0003;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.cart-sider {
+  z-index: 1000;
+  background: #fff;
+  border-radius: 10px;
+  width: 500px;
+  height: 80vh;
+  transition: right .3s ease-in-out;
+  position: fixed;
+  top: 3rem;
+  right: -100%;
+  overflow-y: auto;
+  box-shadow: 2px 0 10px #0003;
+}
+
+.cart-sider.open {
+  right: 0;
+}
+
+.cartSider-header {
+  border-bottom: 1px solid #000;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  display: flex;
+}
+
+.cartSider-header h3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.cartSider-header h3 span {
+  font-family: Times New Roman, Times, serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.cartSider-header .close-button {
+  font-size: 25px;
+}
+
+.cartSider-header .close-button:hover {
+  color: #767676;
+}
+
+.cart-content {
+  max-width: 350px;
+  margin: 2rem auto;
+}
+
+.cart-footer {
+  flex-direction: column;
+  padding: 10px;
+  display: flex;
+}
+
+.clear-cart-btn {
+  cursor: pointer;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: all .3s ease-in;
+}
+
+.clear-cart-btn:hover {
+  color: #e85656;
+}
+
+.cart-total {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.cart-total p {
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.cart-total p span {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cart-total .cart-checkout {
+  cursor: pointer;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: all .3s ease-in;
+}
+
+.cart-total .cart-checkout:hover {
+  color: #e85656;
+}
+
+
+/* [project]/component/emptycartmain/emptycart.css [app-client] (css) */
+.emptycart {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.emptycart .emptycartIcon {
+  background: #d6d5d5;
+  border-radius: 70px;
+  padding: 20px;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.emptycart h2 {
+  letter-spacing: 1px;
+  color: #43436073;
+  margin-top: 10px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.emptycart p {
+  color: #0d0d0d6b;
+  padding: 10px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.emptycart a {
+  color: #fff;
+  text-align: center;
+  background: #6f6ff3;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all .3s ease-in;
+}
+
+.emptycart a:hover {
+  background: #00f;
+  text-decoration: underline;
+}
+
+
+/* [project]/component/carticonmain/carticonmain.css [app-client] (css) */
+
+
+
+/* [project]/component/generalCart/cartmain.css [app-client] (css) */
+.cartDisplay {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.cartDisplay-header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+}
+
+.cartDisplay-header h2 {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cartDisplay-header p {
+  color: #fff;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.cartDisplay-header p:hover {
+  color: #000;
+}
+
+
+/* [project]/component/productCard/productcard.css [app-client] (css) */
+
+
+
+/*# sourceMappingURL=component_caba458c._.css.map*/

@@ -1,0 +1,61 @@
+/* [project]/component/cartItem/cartItem.css [app-client] (css) */
+.maincart {
+  justify-content: space-between;
+  align-items: center;
+  transition: all .3s ease-in;
+  display: flex;
+  box-shadow: 0 10px 10px #00000080;
+}
+
+.mainCart-Image .pic {
+  margin: 1rem;
+}
+
+.mainCartInfo {
+  align-items: center;
+  display: flex;
+}
+
+.mainCartInfo h3 {
+  margin-right: 10px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+}
+
+.mainCartInfo small {
+  font-family: Times New Roman, Times, serif;
+  font-size: 12px;
+}
+
+.mainCartBtn {
+  align-items: center;
+  padding: 10px;
+  display: flex;
+}
+
+.mainCartBtn1 {
+  align-items: center;
+  margin-right: 20px;
+  padding: 10px;
+  display: flex;
+}
+
+.mainCartBtn1 button {
+  padding: 5px;
+}
+
+.mainCartBtn1 button:hover {
+  color: #848484;
+}
+
+.mainCartBtn2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.mainCartBtn2:hover {
+  color: #848484;
+}
+
+/*# sourceMappingURL=component_cartItem_cartItem_css_f9ee138c._.single.css.map*/

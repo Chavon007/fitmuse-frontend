@@ -1,0 +1,53 @@
+.maincart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+}
+.maincart:hover {
+  /* transform: scale(0.8); */
+}
+.mainCart-Image .pic {
+  margin: 1rem;
+}
+.mainCartInfo {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.mainCartInfo h3 {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  margin-right: 10px;
+}
+.mainCartInfo small {
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+}
+.mainCartBtn {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.mainCartBtn1 {
+  padding: 10px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  /* background: red; */
+}
+.mainCartBtn1 button {
+  padding: 5px;
+}
+.mainCartBtn1 button:hover {
+  color: rgb(132, 132, 132);
+}
+.mainCartBtn2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainCartBtn2:hover{
+    color: rgb(132, 132, 132);
+}

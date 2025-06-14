@@ -1,0 +1,143 @@
+/* [project]/component/generalCart/cartmain.css [app-client] (css) */
+.cartDisplay {
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 16px;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+.cartDisplay-header {
+  z-index: 100;
+  user-select: none;
+  background-color: #fff;
+  border-bottom: 2px solid #ddd;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+.cartDisplay-header h2 {
+  color: #333;
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.cartDisplay-header > div {
+  cursor: pointer;
+  border-radius: 8px;
+  align-items: center;
+  padding: 8px;
+  transition: background-color .3s;
+  display: flex;
+}
+
+.cartDisplay-header > div:hover {
+  background-color: #e0e0e0;
+}
+
+.cartSider {
+  box-sizing: border-box;
+  z-index: 200;
+  background-color: #fff;
+  flex-direction: column;
+  width: 320px;
+  height: 100vh;
+  padding: 24px;
+  transition: transform .3s ease-in-out;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  box-shadow: -3px 0 10px #0000001a;
+}
+
+.cartSider.open {
+  transform: translateX(0);
+}
+
+.cartSider-header {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.cartSider-header h3 {
+  color: #222;
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.cartSider-closeBtn {
+  cursor: pointer;
+  color: #999;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  transition: color .2s;
+}
+
+.cartSider-closeBtn:hover {
+  color: #333;
+}
+
+.cartSider-content {
+  color: #444;
+  flex-grow: 1;
+  padding-right: 8px;
+  overflow-y: auto;
+}
+
+.cartSider-empty {
+  text-align: center;
+  color: #666;
+  margin-top: 40px;
+  font-size: 1rem;
+}
+
+.cartIcon {
+  color: #fff;
+  user-select: none;
+  background-color: #0070f3;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: background-color .3s;
+  display: flex;
+  position: relative;
+}
+
+.cartIcon:hover {
+  background-color: #005bb5;
+}
+
+.cartIcon-badge {
+  color: #fff;
+  pointer-events: none;
+  user-select: none;
+  background-color: #ff4136;
+  border-radius: 12px;
+  padding: 2px 6px;
+  font-size: .75rem;
+  font-weight: 700;
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+
+
+/*# sourceMappingURL=component_generalCart_cartmain_35b52874.css.map*/

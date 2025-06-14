@@ -1,0 +1,181 @@
+.support-content {
+  width: 90%;
+  margin: 2rem auto;
+  height: auto;
+}
+.support-header {
+  /* background: red; */
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.support-header h2 {
+  font-size: 24px;
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+.support-header p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: 100;
+  color: #fff;
+  margin-top: 20px;
+}
+.support-search {
+  width: 90%;
+  margin: 20px auto;
+  background: transparent;
+  height: 25vh;
+  border-radius: 10px;
+  padding-top: 1rem;
+}
+.support-search-header {
+  /* background: red; */
+  width: 30%;
+  margin: 8px auto;
+  /* padding: ; */
+  text-align: center;
+  padding: 10px;
+}
+.support-search-header h4 {
+  color: #fff;
+  font-size: 18px;
+  font-family: serif;
+  font-weight: bold;
+  
+}
+.support-search-form {
+  display: flex;
+  width: 40%;
+  border: none;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 30px;
+  background: #e7e4f4;
+}
+.support-search-form input {
+  width: 100%;
+}
+.support-search-form input::placeholder {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+}
+.support-search-form p {
+  font-size: 30px;
+  color: #7b7979;
+}
+.support-media {
+  width: 80%;
+  margin: 3rem auto;
+  display: flex;
+  /* background: red; */
+  gap: 20px;
+}
+.supportCard {
+  background-color: #fff;
+  border: none;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.supportCard #icon-0 {
+  background: green;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+  color: #fff;
+}
+.supportCard #icon-1 {
+  background: red;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+  color: #fff;
+}
+.supportCard #icon-2 {
+  background: rgb(30, 94, 233);
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+  color: #fff;
+}
+.supportCard h5 {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.supportCard p {
+  max-width: 300px;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  color: #656565;
+}
+.supportCard .link2 {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 50px;
+  display: block;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.supportCard .link2:hover {
+  background: linear-gradient(135deg, #764ba2);
+}
+.support-faq {
+  background: transparent;
+  width: 80%;
+  margin:  0 auto 10px auto;
+  border-bottom: none;  
+}
+
+.support-faq h2{
+    /* background: red; */
+    text-align: center;
+    width: 40%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    margin:  0 auto;
+}
+.support-faq ul li{
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+.support-faq ul li:last-child {
+    border-bottom: none;
+}
+.support-faq ul li .question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.support-faq ul li .answer{
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-left: 15px;
+}
+.support-faq ul li .question.active{
+    color: #b1bdf5;
+}

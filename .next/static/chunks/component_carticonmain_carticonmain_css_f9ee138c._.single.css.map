@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/component/carticonmain/carticonmain.css"],"sourcesContent":["button{\r\n    position: relative;\r\n    \r\n}\r\nbutton span{\r\n    position: absolute;\r\n    top: 8;\r\n    font-size: 15px;\r\n    color: red;\r\n}"],"names":[],"mappings":"AAAA;;;;AAIA"}}]
+}

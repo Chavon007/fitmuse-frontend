@@ -1,0 +1,12 @@
+/* [project]/component/productlist/productlist.css [app-client] (css) */
+.productlist {
+  background: #fff;
+  border-radius: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  width: 90%;
+  margin: 0 auto 3rem;
+  display: grid;
+}
+
+/*# sourceMappingURL=component_productlist_productlist_css_f9ee138c._.single.css.map*/

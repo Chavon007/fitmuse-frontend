@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/GOMYCODE/Final%20project/fitmuse/component/mainwishlist/mainwishlist.css"],"sourcesContent":[".mainWishlist1 {\r\n  width: 90%;\r\n  background: #fefefe;\r\n  margin: 0 auto;\r\n  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);\r\n  padding: 10px;\r\n}\r\n.mainwish-header {\r\n  width: 50%;\r\n  /* background: red; */\r\n  margin: 0 auto;\r\n  padding: 10px;\r\n  text-align: center;\r\n}\r\n.mainwish-header h2{\r\n    font-size: 30px;\r\n    font-family: sans-serif;\r\n    letter-spacing: 1;\r\n    color: rgb(243, 136, 136);\r\n    font-weight: bold;\r\n}\r\n.mainwish-header p{\r\n    font-size: 13px;\r\n    font-family: 'Times New Roman', Times, serif;\r\n    font-weight: 100;\r\n    letter-spacing: 1;\r\n\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;AAOA;;;;;;;AAOA;;;;;;;;AAOA","debugId":null}}]
+}

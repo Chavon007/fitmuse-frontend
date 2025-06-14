@@ -14,30 +14,53 @@ function User() {
 
   const router = useRouter();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSuccess(false);
 
-    if (!email.includes(".com")) {
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       setMessage("Email must contain .com");
-    } else if (password.length <= 8) {
+      return;
+    } else if (password.length < 8) {
       setMessage("Password must contain atleast 8 characters");
-    } else {
-      setMessage("Login in success");
-      setIsSuccess(true);
+      return;
+    }
+    try {
+      const res = await fetch(
+        `${process.env.NEXT_PUBLIC_DOMAIN_NAME}/api/auth/login`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ email, password }),
+        }
+      );
 
-      setTimeout(() => {
-        router.push("/");
-      }, 2000);
+      const data = await res.json();
+
+      if (res.ok) {
+        setMessage(data.message);
+        setIsSuccess(true);
+        router.push("/cart");
+        return;
+      } else {
+        setMessage(data.message || "Login Failed");
+        return;
+      }
+    } catch (error) {
+      console.error(error);
+      setMessage("Create an account first");
+      return;
     }
   };
   return (
     <div className="login">
       <div className="login-area">
-        <div className="newform">       
+        <div className="newform">
           <div className="login-content">
             <div className="login-form">
-                <h5 className="text-geen">{message}</h5>
+              <h5 className="text-geen">{message}</h5>
               <form
                 className="lForm"
                 onSubmit={handleSubmit}
@@ -80,7 +103,7 @@ function User() {
           <div className="img">
             <Image
               src="/login1.avif"
-              alt=""
+              alt="login"
               width={1000}
               height={100}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/GOMYCODE/Final%20project/fitmuse/app/login/layout.js"],"sourcesContent":["export default function LoginLayout({ children }) {\r\n  return <>{children}</>;\r\n}\r\n"],"names":[],"mappings":";;;;;AAAe,SAAS,YAAY,EAAE,QAAQ,EAAE;IAC9C,qBAAO;kBAAG;;AACZ","debugId":null}}]
+}

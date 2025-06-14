@@ -1,0 +1,129 @@
+.store {
+  width: 90%;
+  margin: 20px auto;
+}
+.storeheader {
+  /* background: red; */
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+.storeheader h2 {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1.4;
+}
+.storeheader p {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  line-height: 1.4;
+  color: #fff;
+  padding: 10px;
+}
+.store-location {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+ 
+}
+.store-address {
+  background-color: #fff;
+  width: 50%;
+  padding: 30px;
+  overflow-y: auto;
+  max-height: 450px;
+  border-radius: 10px;
+  /* gap: 30px; */
+}
+.store-address::-webkit-scrollbar {
+  width: 10px;
+}
+.store-address::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.store-address h3 {
+  color: #6b6b6b;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 10px 0 10px 0;
+}
+.mainstores {
+  border: 2px solid #f1f3f4;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease-in;
+}
+.mainstores:hover{
+    transform: scale(1.05);
+    z-index: 1;
+}
+.mainstores h5 {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #000;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+.mainstores p {
+  /* background: red; */
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  columns: #666;
+  margin-bottom: 15px;
+}
+.mainstores .time-num {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.mainstores .time-num span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  color: #7e7e7e;
+}
+.mainstores .time-num small {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  color: #7e7e7e;
+}
+.icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 40px;
+  /* background: red; */
+}
+.icon-link .btnicon {
+  display: flex;
+  /* background: red; */
+  max-width: 300px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 3px solid #f1f3f4;
+  border-radius: 10px;
+}
+.icon-link .btnicon:hover{
+    background: #000;
+    color: white;
+    border: none;
+}

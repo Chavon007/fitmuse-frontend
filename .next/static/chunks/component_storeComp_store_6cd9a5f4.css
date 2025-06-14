@@ -1,0 +1,135 @@
+/* [project]/component/storeComp/store.css [app-client] (css) */
+.store {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.storeheader {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.storeheader h2 {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.storeheader p {
+  color: #fff;
+  padding: 10px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 1.4;
+}
+
+.store-location {
+  justify-content: space-around;
+  margin-top: 20px;
+  display: flex;
+}
+
+.store-address {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 50%;
+  max-height: 450px;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+.store-address::-webkit-scrollbar {
+  width: 10px;
+}
+
+.store-address::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.store-address h3 {
+  color: #6b6b6b;
+  padding: 10px 0;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.mainstores {
+  border: 2px solid #f1f3f4;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 10px 30px;
+  transition: all .3s ease-in;
+  box-shadow: 0 8px 20px #00000026;
+}
+
+.mainstores:hover {
+  z-index: 1;
+  transform: scale(1.05);
+}
+
+.mainstores h5 {
+  color: #000;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.mainstores p {
+  columns: #666;
+  margin-bottom: 15px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.mainstores .time-num {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.mainstores .time-num span, .mainstores .time-num small {
+  color: #7e7e7e;
+  align-items: center;
+  gap: 10px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 12px;
+  font-weight: lighter;
+  display: flex;
+}
+
+.icon-link {
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.icon-link .btnicon {
+  border: 3px solid #f1f3f4;
+  border-radius: 10px;
+  align-items: center;
+  gap: 10px;
+  max-width: 300px;
+  padding: 10px;
+  display: flex;
+}
+
+.icon-link .btnicon:hover {
+  color: #fff;
+  background: #000;
+  border: none;
+}
+
+
+/*# sourceMappingURL=component_storeComp_store_6cd9a5f4.css.map*/

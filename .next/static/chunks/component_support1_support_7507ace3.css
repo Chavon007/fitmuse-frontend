@@ -1,0 +1,204 @@
+/* [project]/component/support1/support.css [app-client] (css) */
+.support-content {
+  width: 90%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+.support-header {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.support-header h2 {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.support-header p {
+  color: #fff;
+  margin-top: 20px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.support-search {
+  background: none;
+  border-radius: 10px;
+  width: 90%;
+  height: 25vh;
+  margin: 20px auto;
+  padding-top: 1rem;
+}
+
+.support-search-header {
+  text-align: center;
+  width: 30%;
+  margin: 8px auto;
+  padding: 10px;
+}
+
+.support-search-header h4 {
+  color: #fff;
+  font-family: serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.support-search-form {
+  background: #e7e4f4;
+  border: none;
+  border-radius: 30px;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+}
+
+.support-search-form input {
+  width: 100%;
+}
+
+.support-search-form input::placeholder {
+  font-family: Times New Roman, Times, serif;
+  font-size: 12px;
+}
+
+.support-search-form p {
+  color: #7b7979;
+  font-size: 30px;
+}
+
+.support-media {
+  gap: 20px;
+  width: 80%;
+  margin: 3rem auto;
+  display: flex;
+}
+
+.supportCard {
+  background-color: #fff;
+  border: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.supportCard #icon-0 {
+  color: #fff;
+  background: green;
+  border-radius: 50px;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.supportCard #icon-1 {
+  color: #fff;
+  background: red;
+  border-radius: 50px;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.supportCard #icon-2 {
+  color: #fff;
+  background: #1e5ee9;
+  border-radius: 50px;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.supportCard h5 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.supportCard p {
+  text-align: center;
+  color: #656565;
+  max-width: 300px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.supportCard .link2 {
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-family: sans-serif;
+  font-size: 12px;
+  transition: all .3s;
+  display: block;
+}
+
+.supportCard .link2:hover {
+  background: linear-gradient(135deg, #764ba2);
+}
+
+.support-faq {
+  background: none;
+  border-bottom: none;
+  width: 80%;
+  margin: 0 auto 10px;
+}
+
+.support-faq h2 {
+  text-align: center;
+  color: #fff;
+  width: 40%;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.support-faq ul li {
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+}
+
+.support-faq ul li:last-child {
+  border-bottom: none;
+}
+
+.support-faq ul li .question {
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+}
+
+.support-faq ul li .answer {
+  color: #fff;
+  margin-left: 15px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.support-faq ul li .question.active {
+  color: #b1bdf5;
+}
+
+
+/*# sourceMappingURL=component_support1_support_7507ace3.css.map*/

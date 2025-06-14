@@ -1,0 +1,163 @@
+/* [project]/component/emptyWishlist/empty.css [app-client] (css) */
+.emptyWishList {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 2rem auto;
+  padding: 10px;
+  display: flex;
+}
+
+.emptyWishList .emptyIcon {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+.emptyWishList h4 {
+  letter-spacing: 1px;
+  color: #8e8e8e;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.emptyWishList p {
+  letter-spacing: 1px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.emptyWishList a {
+  color: #fff;
+  background: #6969f1;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
+  transition: all .3s ease-in;
+}
+
+.emptyWishList a:hover {
+  background: #00f;
+  text-decoration: underline;
+}
+
+
+/* [project]/component/wishList/wishlist.css [app-client] (css) */
+.wishlist1 {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 90%;
+  margin: 1rem auto;
+  display: grid;
+}
+
+.wishlist2 {
+  position: relative;
+  box-shadow: 0 10px 10px #00000080;
+}
+
+.wishlist2 .wishlistLike {
+  background: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.wishlist2 .wishlistLike:hover {
+  color: red;
+}
+
+.wishlist-content {
+  background: #f5f5f5d3;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+
+.wishlist-content h3 {
+  letter-spacing: 1px;
+  padding-left: 8px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.wishlist-content p {
+  color: #6b6b6b;
+  padding-left: 8px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.wishlist-content small {
+  margin-top: 5px;
+  padding-left: 8px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.wishlist-content-btn {
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background: #8181f5;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 7px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 12px;
+  display: flex;
+}
+
+.wishlist-content-btn:hover {
+  background: #00f;
+  text-decoration: underline;
+}
+
+
+/* [project]/component/mainwishlist/mainwishlist.css [app-client] (css) */
+.mainWishlist1 {
+  background: #fefefe;
+  width: 90%;
+  height: auto;
+  margin: 2rem auto;
+  padding: 10px;
+  box-shadow: 0 8px 20px #00000026;
+}
+
+.mainwish-header {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.mainwish-header h2 {
+  letter-spacing: 1px;
+  color: #f38888;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.mainwish-header p {
+  letter-spacing: 1px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+
+/*# sourceMappingURL=component_c43ddb81._.css.map*/

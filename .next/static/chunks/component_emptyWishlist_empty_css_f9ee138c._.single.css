@@ -1,0 +1,49 @@
+/* [project]/component/emptyWishlist/empty.css [app-client] (css) */
+.emptyWishList {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 2rem auto;
+  padding: 10px;
+  display: flex;
+}
+
+.emptyWishList .emptyIcon {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+.emptyWishList h4 {
+  letter-spacing: 1px;
+  color: #8e8e8e;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.emptyWishList p {
+  letter-spacing: 1px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.emptyWishList a {
+  color: #fff;
+  background: #6969f1;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
+  transition: all .3s ease-in;
+}
+
+.emptyWishList a:hover {
+  background: #00f;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=component_emptyWishlist_empty_css_f9ee138c._.single.css.map*/

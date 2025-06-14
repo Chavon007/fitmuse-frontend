@@ -1,0 +1,13 @@
+.productlist {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background: #fff;
+  width: 90%;
+  margin: 0 auto 3rem auto;
+  border-radius: 10px;
+  gap: 10px;
+  /* padding: 20px; */
+}
+/* .productlist:hover{
+  
+} */

@@ -1,0 +1,105 @@
+/* [project]/component/cartSiderBar/cartsidebar.css [app-client] (css) */
+.cart-overlay {
+  z-index: 999;
+  background: #0003;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.cart-sider {
+  z-index: 1000;
+  background: #fff;
+  border-radius: 10px;
+  width: 500px;
+  height: 80vh;
+  transition: right .3s ease-in-out;
+  position: fixed;
+  top: 3rem;
+  right: -100%;
+  overflow-y: auto;
+  box-shadow: 2px 0 10px #0003;
+}
+
+.cart-sider.open {
+  right: 0;
+}
+
+.cartSider-header {
+  border-bottom: 1px solid #000;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  display: flex;
+}
+
+.cartSider-header h3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.cartSider-header h3 span {
+  font-family: Times New Roman, Times, serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.cartSider-header .close-button {
+  font-size: 25px;
+}
+
+.cartSider-header .close-button:hover {
+  color: #767676;
+}
+
+.cart-content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 350px;
+  margin: 5rem auto;
+  display: flex;
+}
+
+
+/* [project]/component/carticonmain/carticonmain.css [app-client] (css) */
+
+
+
+/* [project]/component/generalCart/cartmain.css [app-client] (css) */
+.cartDisplay {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.cartDisplay-header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+}
+
+.cartDisplay-header h2 {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cartDisplay-header p {
+  color: #fff;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.cartDisplay-header p:hover {
+  color: #000;
+}
+
+
+/*# sourceMappingURL=component_42906c18._.css.map*/

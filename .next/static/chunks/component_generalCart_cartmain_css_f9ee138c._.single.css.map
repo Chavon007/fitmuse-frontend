@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/component/generalCart/cartmain.css"],"sourcesContent":[".cartDisplay{\r\n    width: 90%;\r\n    margin: 0 auto;\r\n    /* background: red; */\r\n    padding: 10px;\r\n}\r\n.cartDisplay-header{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    /* background: red; */\r\n    padding: 10px;\r\n    /* color: #fff; */\r\n    border-bottom: 1px solid #000;\r\n}\r\n.cartDisplay-header h2{\r\n    font-family: sans-serif;\r\n    font-size: 30px;\r\n    font-weight: bold;\r\n    color: #000;\r\n}\r\n.cartDisplay-header p{\r\n    color: #000;\r\n    font-size: 40px;\r\n    cursor: pointer;\r\n}\r\n.cartDisplay-header p:hover{\r\n    color: #000;\r\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;;;;AASA;;;;;;;AAMA;;;;;;AAKA"}}]
+}

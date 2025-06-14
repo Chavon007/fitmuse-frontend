@@ -1,0 +1,13 @@
+/* [project]/component/carticonmain/carticonmain.css [app-client] (css) */
+button {
+  position: relative;
+}
+
+button span {
+  color: red;
+  font-size: 15px;
+  position: absolute;
+  top: 8px;
+}
+
+/*# sourceMappingURL=component_carticonmain_carticonmain_css_f9ee138c._.single.css.map*/
