@@ -1,10 +1,12 @@
 "use client";
-
+import products from "./productData";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Slider from "react-slick";
 import { FaRegStar } from "react-icons/fa6";
 import { CiHeart } from "react-icons/ci";
 import Image from "next/image";
+import { useCart } from "@/context/cartContext";
+import toast from "react-hot-toast";
 
 function NextArrow(props) {
   const { className, style, onClick } = props;
@@ -35,64 +37,8 @@ function PrevArrow(props) {
 }
 
 function Trends() {
-  const products = [
-    {
-      image: "/t1.jpg",
-      name: "BRAND/TYPE",
-      desc: "Name and characterics",
-      price: "74,95 €",
-      discount: "121,00 €",
-      list: "(45)",
-    },
-    {
-      image: "/t2.jpg",
-      name: "BRAND/TYPE",
-      desc: "Name and characterics",
-      price: "74,95 €",
-      discount: " 121,00 €",
-      list: "(45)",
-    },
-    {
-      image: "/t3.jpg",
-      name: "BRAND/TYPE",
-      desc: "Name and characterics",
-      price: "74,95 €",
-      discount: " 121,00 €",
-      list: "(45)",
-    },
-    {
-      image: "/t4.jpg",
-      name: "BRAND/TYPE",
-      desc: "Name and characterics",
-      price: "74,95 €",
-      discount: " 121,00 €",
-      list: "(45)",
-    },
-    {
-      image: "/t5.jpg",
-      name: "BRAND/TYPE",
-      desc: "Name and characterics",
-      price: "74,95 €",
-      discount: " 121,00 €",
-      list: "(45)",
-    },
-    {
-      image: "/t6.jpg",
-      name: "BRAND/TYPE",
-      desc: "Name and characterics",
-      price: "74,95 €",
-      discount: " 121,00 €",
-      list: "(45)",
-    },
-    {
-      image: "/t7.jpg",
-      name: "BRAND/TYPE",
-      desc: "Name and characterics",
-      price: "74,95 €",
-      discount: "121,00 ",
-      list: "(45)",
-    },
-  ];
+  const { addToCart, likedProduct } = useCart();
+  const trendingNow = products.sort((a, b) => a.id - b.id).slice(0, 7);
 
   var settings = {
     dots: true,
@@ -117,7 +63,7 @@ function Trends() {
         <h2>Trending Now</h2>
 
         <Slider {...settings}>
-          {products.map((product, index) => (
+          {trendingNow.map((product, index) => (
             <div key={index} className="card-content1">
               <Image
                 className="img"
@@ -126,15 +72,22 @@ function Trends() {
                 width={100}
                 height={100}
               />
-              <div className="heart">
+              <button
+                type="button"
+                className="heart"
+                onClick={() => {
+                  likedProduct(product);
+                  toast.success("Product added to like item");
+                }}
+              >
                 <CiHeart />
-              </div>
+              </button>
               <span className="discount">-42% off</span>
               <div className="lastcard">
                 <p className="name">{product.name}</p>
                 <p className="desc">{product.desc}</p>
                 <h5 className="price">
-                  {product.price} <small>{product.discount}</small>
+                  ${product.price} <small>{product.discount}</small>
                 </h5>
                 <h6 className="icon">
                   <FaRegStar />
@@ -144,6 +97,16 @@ function Trends() {
                   <FaRegStar />
                   <span>{product.list}</span>
                 </h6>
+                <button
+                  className="headerbtn1"
+                  type="button"
+                  onClick={() => {
+                    addToCart(product);
+                    toast.success("product added to Cart");
+                  }}
+                >
+                  Add to cart
+                </button>
               </div>
             </div>
           ))}

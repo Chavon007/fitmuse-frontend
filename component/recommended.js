@@ -1,24 +1,25 @@
 "use client";
-
+import products from "./productData";
+import { useCart } from "@/context/cartContext";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Slider from "react-slick";
 import { FaRegStar } from "react-icons/fa6";
 import { CiHeart } from "react-icons/ci";
 import Image from "next/image";
+import toast from "react-hot-toast";
 
 function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div className="container">
-         <div
-      className={`${className} custom-arrow next-arrow`}
-      style={{ ...style }}
-      onClick={onClick}
-    >
-      <FaArrowRight />
+      <div
+        className={`${className} custom-arrow next-arrow`}
+        style={{ ...style }}
+        onClick={onClick}
+      >
+        <FaArrowRight />
+      </div>
     </div>
-    </div>
-   
   );
 }
 
@@ -36,64 +37,9 @@ function PrevArrow(props) {
 }
 
 function Recom() {
-  const products = [
-    {
-      image: "/r1.jpg",
-      name: "BRAND/TYPE",
-      desc: "Name and characterics",
-      price: "74,95 €",
-      discount: "121,00 €",
-      list: "(45)",
-    },
-    {
-      image: "/r2.jpg",
-      name: "BRAND/TYPE",
-      desc: "Name and characterics",
-      price: "74,95 €",
-      discount: " 121,00 €",
-      list: "(45)",
-    },
-    {
-      image: "/r3.jpg",
-      name: "BRAND/TYPE",
-      desc: "Name and characterics",
-      price: "74,95 €",
-      discount: " 121,00 €",
-      list: "(45)",
-    },
-    {
-      image: "/r4.jpg",
-      name: "BRAND/TYPE",
-      desc: "Name and characterics",
-      price: "74,95 €",
-      discount: " 121,00 €",
-      list: "(45)",
-    },
-    {
-      image: "/r5.jpg",
-      name: "BRAND/TYPE",
-      desc: "Name and characterics",
-      price: "74,95 €",
-      discount: " 121,00 €",
-      list: "(45)",
-    },
-    {
-      image: "/t6.jpg",
-      name: "BRAND/TYPE",
-      desc: "Name and characterics",
-      price: "74,95 €",
-      discount: " 121,00 €",
-      list: "(45)",
-    },
-    {
-      image: "/t7.jpg",
-      name: "BRAND/TYPE",
-      desc: "Name and characterics",
-      price: "74,95 €",
-      discount: "121,00 ",
-      list: "(45)",
-    },
-  ];
+  const { addToCart, likedProduct } = useCart();
+
+  const recommended = products.sort((a, b) => a.id - b.id).slice(0, 7);
 
   var settings = {
     dots: true,
@@ -118,7 +64,7 @@ function Recom() {
         <h2>RECOMMENDED FOR YOU</h2>
 
         <Slider {...settings}>
-          {products.map((product, index) => (
+          {recommended.map((product, index) => (
             <div key={index} className="card-content1">
               <Image
                 className="img"
@@ -127,9 +73,16 @@ function Recom() {
                 width={100}
                 height={100}
               />
-              <div className="heart">
+              <button
+                type="button"
+                className="heart"
+                onClick={() => {
+                  likedProduct(product);
+                  toast.success("Product added to like item");
+                }}
+              >
                 <CiHeart />
-              </div>
+              </button>
               <span className="discount">-42% off</span>
               <div className="lastcard">
                 <p className="name">{product.name}</p>
@@ -145,6 +98,15 @@ function Recom() {
                   <FaRegStar />
                   <span>{product.list}</span>
                 </h6>
+                <button className="headerbtn1"
+                  type="button"
+                  onClick={() => {
+                    addToCart(product);
+                    toast.success("Product added to Cart");
+                  }}
+                >
+                  Add to Cart
+                </button>
               </div>
             </div>
           ))}

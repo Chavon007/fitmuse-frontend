@@ -22,7 +22,7 @@ function Productcard({ product }) {
         <button
           className="btn"
           type="button"
-          onClick={() => {likedProduct(product); toast.success("Product added to like time")}}
+          onClick={() => {likedProduct(product); toast.success("Product added to like item")}}
         >
           <CiHeart />
         </button>

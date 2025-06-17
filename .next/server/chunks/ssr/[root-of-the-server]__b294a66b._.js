@@ -486,10 +486,11 @@ const AuthContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project
 function AuthProvider({ children }) {
     const [user, setUser] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     const [token, setToken] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(true);
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
     const login = async (email, password)=>{
         try {
-            const res = await fetch(`${("TURBOPACK compile-time value", "http://localhost:5000")}/api/auth/login`, {
+            const res = await fetch(`${("TURBOPACK compile-time value", "https://fitmuse-backend.onrender.com")}/api/auth/login`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
@@ -500,42 +501,56 @@ function AuthProvider({ children }) {
                 })
             });
             const data = await res.json();
+            console.log("Login Response:", data); // ✅ ADD THIS
             if (res.ok) {
                 setUser(data.user);
                 setToken(data.token);
                 localStorage.setItem("token", data.token);
+                localStorage.setItem("user", JSON.stringify(data.user));
+                console.log("✅ Stored token:", data.token); // ✅ ADD THIS
+                console.log("✅ Stored user:", data.user); // ✅ ADD THIS
                 router.push("/cart");
             } else {
-                console.error(data.message);
+                console.error("❌ Login failed:", data.message); // ✅ ADD THIS
             }
         } catch (err) {
-            console.error("Login Error:", err);
+            console.error("❌ Login Error:", err); // ✅ ADD THIS
         }
     };
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const verifyUser = async ()=>{
             const storedToken = localStorage.getItem("token");
-            if (!storedToken) return;
+            console.log("Stored Token:", storedToken);
+            if (!storedToken) {
+                console.log("No token found in localStorage.");
+                setLoading(false);
+                return;
+            }
             try {
-                const res = await fetch(`${("TURBOPACK compile-time value", "http://localhost:5000")}/api/auth/verify-user`, {
+                const res = await fetch(`${("TURBOPACK compile-time value", "https://fitmuse-backend.onrender.com")}/api/auth/verify-user`, {
                     headers: {
                         Authorization: `Bearer ${storedToken}`
                     }
                 });
                 const data = await res.json();
+                console.log("Verify User Response:", data);
                 if (res.ok) {
                     setUser(data.user);
                     setToken(storedToken);
+                    console.log("✅ User verified and set in context:", data.user);
                 } else {
+                    console.warn("❌ Invalid token or verification failed.");
                     setUser(null);
                     setToken(null);
                     localStorage.removeItem("token");
                 }
             } catch (err) {
-                console.error("Verification Error:", err);
+                console.error("❌ Error verifying user:", err);
                 setUser(null);
                 setToken(null);
                 localStorage.removeItem("token");
+            } finally{
+                setLoading(false);
             }
         };
         verifyUser();
@@ -544,12 +559,13 @@ function AuthProvider({ children }) {
         value: {
             user,
             token,
-            login
+            login,
+            loading
         },
         children: children
     }, void 0, false, {
         fileName: "[project]/context/authcontext.js",
-        lineNumber: 74,
+        lineNumber: 92,
         columnNumber: 5
     }, this);
 }
