@@ -1302,10 +1302,6 @@
     font-size: 10px;
   }
 
-  .card-content h2 {
-    font-size: 15px;
-  }
-
   .custom-arrow {
     display: none;
   }
@@ -1339,6 +1335,46 @@
     width: 90%;
     margin: 0 auto;
     display: grid;
+  }
+
+  .about {
+    margin-top: 115rem;
+  }
+
+  .about-image {
+    display: none;
+  }
+
+  .about_text {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 470px;
+    display: flex;
+  }
+
+  .card-content h2 {
+    font-size: 13px;
+  }
+
+  .accesories {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .footer {
+    grid-template-columns: repeat(3, 2fr);
+    height: 50vh;
+    margin-top: 90rem;
+    display: grid;
+  }
+
+  .footer-link {
+    height: 8px;
+  }
+
+  .footer-link h3, .foot p {
+    font-size: 10px;
   }
 }
 

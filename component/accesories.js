@@ -12,48 +12,48 @@ function Accesories() {
       image: "/A1.jpg",
       name: "BRAND/TYPE",
       desc: "Name and characterics",
-      price: "74,95 €",
-      discount: "121,00 €",
+      price: "74,95 $",
+      discount: "121,00 $",
       list: "(45)",
     },
     {
       image: "/A2.jpg",
       name: "BRAND/TYPE",
       desc: "Name and characterics",
-      price: "74,95 €",
-      discount: " 121,00 €",
+      price: "74,95 $",
+      discount: " 121,00 $",
       list: "(45)",
     },
     {
       image: "/A3.jpg",
       name: "BRAND/TYPE",
       desc: "Name and characterics",
-      price: "74,95 €",
-      discount: " 121,00 €",
+      price: "74,95 $",
+      discount: " 121,00 $",
       list: "(45)",
     },
     {
       image: "/A4.jpg",
       name: "BRAND/TYPE",
       desc: "Name and characterics",
-      price: "74,95 €",
-      discount: " 121,00 €",
+      price: "74,95 $",
+      discount: " 121,00 $",
       list: "(45)",
     },
     {
       image: "/A5.jpg",
       name: "BRAND/TYPE",
       desc: "Name and characterics",
-      price: "74,95 €",
-      discount: " 121,00 €",
+      price: "74,95 $",
+      discount: " 121,00 $",
       list: "(45)",
     },
     {
       image: "/A6.jpg",
       name: "BRAND/TYPE",
       desc: "Name and characterics",
-      price: "74,95 €",
-      discount: " 121,00 €",
+      price: "74,95 $",
+      discount: " 121,00 $",
       list: "(45)",
     },
   ];
@@ -73,10 +73,6 @@ function Accesories() {
                   width={100}
                   height={100}
                 />
-                <div className="heart">
-                  <CiHeart />
-                </div>
-                <span className="discount">-42% off</span>
                 <div className="lastcard">
                   <p className="name">{product.name}</p>
                   <p className="desc">{product.desc}</p>

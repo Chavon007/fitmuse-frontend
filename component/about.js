@@ -25,6 +25,7 @@ function About() {
         <div className="about-image">
           <Image src="/r3.jpg" alt="tranning" width={1000} height={100}  style={{width: "750px", height: "420px"}}/>
         </div>
+        
       </div>
     </div>
     </div>
