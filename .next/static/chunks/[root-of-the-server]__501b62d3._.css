@@ -319,9 +319,29 @@
     }
   }
 
+  .block {
+    display: block;
+  }
+
+  .hidden {
+    display: none;
+  }
+
   .antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  @media (width >= 48rem) {
+    .md\:block {
+      display: block;
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:hidden {
+      display: none;
+    }
   }
 }
 
@@ -1279,7 +1299,46 @@
   }
 
   .banner-header p {
+    font-size: 10px;
+  }
+
+  .card-content h2 {
+    font-size: 15px;
+  }
+
+  .custom-arrow {
+    display: none;
+  }
+
+  .card-content1 {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .summer {
+    height: 120vh;
+    margin-top: 115rem;
+    margin-bottom: 1rem;
+  }
+
+  .summmer-content {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .summer-content-header h2 {
     font-size: 12px;
+  }
+
+  .secondCard {
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
   }
 }
 

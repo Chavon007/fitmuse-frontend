@@ -63,7 +63,59 @@ function Recom() {
       <div className="card-content">
         <h2>RECOMMENDED FOR YOU</h2>
 
-        <Slider {...settings}>
+        <div className="content1 hidden md:block">
+          <Slider {...settings}>
+            {recommended.map((product, index) => (
+              <div key={index} className="card-content1">
+                <Image
+                  className="img"
+                  src={product.image}
+                  alt={product.desc}
+                  width={100}
+                  height={100}
+                />
+                <button
+                  type="button"
+                  className="heart"
+                  onClick={() => {
+                    likedProduct(product);
+                    toast.success("Product added to like item");
+                  }}
+                >
+                  <CiHeart />
+                </button>
+                <span className="discount">-42% off</span>
+                <div className="lastcard">
+                  <p className="name">{product.name}</p>
+                  <p className="desc">{product.desc}</p>
+                  <h5 className="price">
+                    {product.price} <small>{product.discount}</small>
+                  </h5>
+                  <h6 className="icon">
+                    <FaRegStar />
+                    <FaRegStar />
+                    <FaRegStar />
+                    <FaRegStar />
+                    <FaRegStar />
+                    <span>{product.list}</span>
+                  </h6>
+                  <button
+                    className="headerbtn1"
+                    type="button"
+                    onClick={() => {
+                      addToCart(product);
+                      toast.success("Product added to Cart");
+                    }}
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </div>
+
+        <div className="cblock md:hidden">
           {recommended.map((product, index) => (
             <div key={index} className="card-content1">
               <Image
@@ -98,7 +150,8 @@ function Recom() {
                   <FaRegStar />
                   <span>{product.list}</span>
                 </h6>
-                <button className="headerbtn1"
+                <button
+                  className="headerbtn1"
                   type="button"
                   onClick={() => {
                     addToCart(product);
@@ -110,7 +163,7 @@ function Recom() {
               </div>
             </div>
           ))}
-        </Slider>
+        </div>
       </div>
     </div>
   );

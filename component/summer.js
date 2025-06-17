@@ -36,7 +36,8 @@ function Summer() {
             </div>
           </div>
 
-          <div className="card-content1 normal-card">
+         <div className="secondCard">
+               <div className="card-content1 normal-card">
             <div id="card-image">
               <Image
                 src="/s2.jpg"
@@ -85,6 +86,8 @@ function Summer() {
               </h6>
             </div>
           </div>
+         </div>
+
           <div className="card-content1 wide-card">
             <div id="card-image">
               <Image
