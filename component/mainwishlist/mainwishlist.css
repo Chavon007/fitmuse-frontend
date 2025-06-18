@@ -13,17 +13,33 @@
   padding: 10px;
   text-align: center;
 }
-.mainwish-header h2{
-    font-size: 30px;
-    font-family: sans-serif;
-    letter-spacing: 1;
-    color: rgb(243, 136, 136);
-    font-weight: bold;
+.mainwish-header h2 {
+  font-size: 30px;
+  font-family: sans-serif;
+  letter-spacing: 1;
+  color: rgb(243, 136, 136);
+  font-weight: bold;
 }
-.mainwish-header p{
-    font-size: 13px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 100;
-    letter-spacing: 1;
+.mainwish-header p {
+  font-size: 13px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  letter-spacing: 1;
+}
 
+@media (max-width: 550px) {
+   .mainwish-header {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .mainwish-header h2 {
+    width: 400px;
+    
+    font-size: 18px;
+    padding: 5px;
+    /* background: red; */
+  }
+  .mainwish-header p{
+    font-size: 12px;
+  }
 }

@@ -1220,7 +1220,7 @@
   }
 
   .summer {
-    height: 120vh;
+    height: 125vh;
     margin-top: 115rem;
     margin-bottom: 1rem;
   }
@@ -1259,6 +1259,10 @@
     display: flex;
   }
 
+  .card-header {
+    margin-top: 3rem;
+  }
+
   .card-content h2 {
     font-size: 13px;
   }
@@ -1281,6 +1285,19 @@
 
   .footer-link h3, .foot p {
     font-size: 10px;
+  }
+
+  .mainsupport {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .mainStore {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
   }
 }
 

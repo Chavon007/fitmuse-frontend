@@ -46,6 +46,30 @@
   text-decoration: underline;
 }
 
+@media (width <= 5550px) {
+  .emptyWishList {
+    width: 90%;
+  }
+
+  .emptyIcon {
+    font-size: 15px;
+  }
+
+  .emptyWishList h4 {
+    font-size: 18px;
+  }
+
+  .emptyWishList p {
+    text-align: center;
+    width: 400px;
+    font-size: 10px;
+  }
+
+  .emptyWishList a {
+    font-size: 10px;
+  }
+}
+
 
 /* [project]/component/wishList/wishlist.css [app-client] (css) */
 .wishlist1 {
@@ -157,6 +181,23 @@
   font-family: Times New Roman, Times, serif;
   font-size: 13px;
   font-weight: 100;
+}
+
+@media (width <= 550px) {
+  .mainwish-header {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .mainwish-header h2 {
+    width: 400px;
+    padding: 5px;
+    font-size: 18px;
+  }
+
+  .mainwish-header p {
+    font-size: 12px;
+  }
 }
 
 

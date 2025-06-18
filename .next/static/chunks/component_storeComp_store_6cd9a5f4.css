@@ -131,5 +131,25 @@
   border: none;
 }
 
+@media (width <= 550px) {
+  .storeheader {
+    width: 300px;
+  }
+
+  .store-location {
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+  }
+
+  .store-address {
+    width: 100%;
+  }
+
+  .store-map {
+    margin-bottom: 10px;
+  }
+}
+
 
 /*# sourceMappingURL=component_storeComp_store_6cd9a5f4.css.map*/

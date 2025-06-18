@@ -200,5 +200,59 @@
   color: #b1bdf5;
 }
 
+@media (width <= 550px) {
+  .support-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .support-header h2 {
+    font-size: 15px;
+  }
+
+  .support-header p {
+    text-align: center;
+    max-width: 500px;
+    margin-top: 30px;
+    font-size: 13px;
+  }
+
+  .support-search-header h4 {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .support-search-form {
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    display: flex;
+  }
+
+  .support-search-form p {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+
+  .support-media {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .support-faq {
+    padding: 10px;
+  }
+
+  .support-faq h2 {
+    width: 300px;
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .support-faq ul li .question, .support-faq ul li .answer {
+    font-size: 10px;
+  }
+}
+
 
 /*# sourceMappingURL=component_support1_support_7507ace3.css.map*/

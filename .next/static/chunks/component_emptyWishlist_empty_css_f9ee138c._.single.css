@@ -46,4 +46,28 @@
   text-decoration: underline;
 }
 
+@media (width <= 5550px) {
+  .emptyWishList {
+    width: 90%;
+  }
+
+  .emptyIcon {
+    font-size: 15px;
+  }
+
+  .emptyWishList h4 {
+    font-size: 18px;
+  }
+
+  .emptyWishList p {
+    text-align: center;
+    width: 400px;
+    font-size: 10px;
+  }
+
+  .emptyWishList a {
+    font-size: 10px;
+  }
+}
+
 /*# sourceMappingURL=component_emptyWishlist_empty_css_f9ee138c._.single.css.map*/

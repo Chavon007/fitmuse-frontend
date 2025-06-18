@@ -120,5 +120,31 @@
   width: 50%;
 }
 
+@media (width <= 550px) {
+  .login {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+
+  .login-area {
+    width: 80%;
+  }
+
+  .newform {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .login-content {
+    width: 90%;
+  }
+
+  .img {
+    display: none;
+  }
+}
+
 
 /*# sourceMappingURL=app_login_login_4cbc60e8.css.map*/

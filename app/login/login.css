@@ -59,7 +59,6 @@
   padding-left: 10px;
 }
 .lForm button {
-    
   border: none;
   width: 100px;
   background: #a53860;
@@ -103,6 +102,29 @@
   margin-top: 10px;
 }
 .img {
-  width: 50% ;
-  
+  width: 50%;
+}
+
+@media (max-width: 550px) {
+  .login {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+  }
+  .login-area {
+    width: 80%;
+  }
+  .newform {
+    display: flex;
+    flex-direction: column;
+  }
+  .login-content {
+    /* background: red; */
+    width: 90%;
+    /* padding: 10px; */
+  }
+  .img {
+    display: none;
+  }
 }

@@ -39,6 +39,7 @@ function User() {
       <div className="login-area">
         <div className="newform">
           <div className="login-content">
+            
             <div className="login-form">
               <h5 className="text-geen">{message}</h5>
               <form
@@ -89,6 +90,7 @@ function User() {
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
           </div>
+
         </div>
       </div>
     </div>

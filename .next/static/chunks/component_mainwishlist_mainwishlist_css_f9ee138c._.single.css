@@ -30,4 +30,21 @@
   font-weight: 100;
 }
 
+@media (width <= 550px) {
+  .mainwish-header {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .mainwish-header h2 {
+    width: 400px;
+    padding: 5px;
+    font-size: 18px;
+  }
+
+  .mainwish-header p {
+    font-size: 12px;
+  }
+}
+
 /*# sourceMappingURL=component_mainwishlist_mainwishlist_css_f9ee138c._.single.css.map*/
