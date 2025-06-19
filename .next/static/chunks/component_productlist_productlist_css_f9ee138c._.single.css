@@ -9,4 +9,12 @@
   display: grid;
 }
 
+@media (width <= 550px) {
+  .productlist {
+    flex-direction: column;
+    width: 80%;
+    display: flex;
+  }
+}
+
 /*# sourceMappingURL=component_productlist_productlist_css_f9ee138c._.single.css.map*/

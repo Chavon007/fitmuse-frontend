@@ -3,7 +3,5 @@
   "/cart/page": "app/cart/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/login/page": "app/login/page.js",
-  "/page": "app/page.js",
-  "/signUp/page": "app/signUp/page.js",
-  "/wishlist/page": "app/wishlist/page.js"
+  "/page": "app/page.js"
 }

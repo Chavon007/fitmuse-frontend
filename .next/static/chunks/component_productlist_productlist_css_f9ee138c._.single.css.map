@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/component/productlist/productlist.css"],"sourcesContent":[".productlist {\r\n  display: grid;\r\n  grid-template-columns: repeat(5, 1fr);\r\n  background: #fff;\r\n  width: 90%;\r\n  margin: 0 auto 3rem auto;\r\n  border-radius: 10px;\r\n  gap: 10px;\r\n  /* padding: 20px; */\r\n}\r\n/* .productlist:hover{\r\n  \r\n} */"],"names":[],"mappings":"AAAA"}}]
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/component/productlist/productlist.css"],"sourcesContent":[".productlist {\r\n  display: grid;\r\n  grid-template-columns: repeat(5, 1fr);\r\n  background: #fff;\r\n  width: 90%;\r\n  margin: 0 auto 3rem auto;\r\n  border-radius: 10px;\r\n  gap: 10px;\r\n  /* padding: 20px; */\r\n}\r\n@media (max-width: 550px) {\r\n  .productlist{\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 80%;\r\n  }\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;;;AAUA;EACE"}}]
 }

@@ -240,6 +240,20 @@ button span {
   top: 8px;
 }
 
+@media (width <= 550px) {
+  button {
+    position: relative;
+  }
+
+  button span {
+    color: red;
+    font-size: 8px;
+    position: absolute;
+    top: 3px;
+    right: 7px;
+  }
+}
+
 
 /* [project]/component/generalCart/cartmain.css [app-client] (css) */
 .cartDisplay {
@@ -273,6 +287,16 @@ button span {
   color: #000;
 }
 
+@media (width <= 550px) {
+  .cartDisplay-header h2 {
+    font-size: 12px;
+  }
+
+  .cartDisplay-header p {
+    font-size: 20px;
+  }
+}
+
 
 /* [project]/component/productlist/productlist.css [app-client] (css) */
 .productlist {
@@ -283,6 +307,14 @@ button span {
   width: 90%;
   margin: 0 auto 3rem;
   display: grid;
+}
+
+@media (width <= 550px) {
+  .productlist {
+    flex-direction: column;
+    width: 80%;
+    display: flex;
+  }
 }
 
 
@@ -386,6 +418,13 @@ button span {
 .productCardDetails .btn1:hover {
   background: #00f;
   text-decoration: underline;
+}
+
+@media (width) {
+  .productCard {
+    flex-direction: column;
+    display: flex;
+  }
 }
 
 

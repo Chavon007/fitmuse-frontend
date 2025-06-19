@@ -100,4 +100,11 @@
   text-decoration: underline;
 }
 
+@media (width) {
+  .productCard {
+    flex-direction: column;
+    display: flex;
+  }
+}
+
 /*# sourceMappingURL=component_productCard_productcard_css_f9ee138c._.single.css.map*/

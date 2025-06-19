@@ -30,4 +30,14 @@
   color: #000;
 }
 
+@media (width <= 550px) {
+  .cartDisplay-header h2 {
+    font-size: 12px;
+  }
+
+  .cartDisplay-header p {
+    font-size: 20px;
+  }
+}
+
 /*# sourceMappingURL=component_generalCart_cartmain_css_f9ee138c._.single.css.map*/
