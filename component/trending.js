@@ -114,7 +114,7 @@ function Trends() {
           </Slider>
         </div>
 
-        <div className="block md:hidden">
+        <div className="block md:hidden" id="GenCard">
           {trendingNow.map((product, index) => (
             <div key={index} className="card-content1">
               <Image

@@ -720,6 +720,10 @@
   margin-top: 3rem;
 }
 
+.content1 {
+  height: auto;
+}
+
 .card-content {
   width: 90%;
   margin: 0 auto;
@@ -1212,6 +1216,10 @@
     display: none;
   }
 
+  #GenCard {
+    height: 100vh;
+  }
+
   .card-content1 {
     flex-direction: column;
     width: 90%;
@@ -1275,7 +1283,6 @@
   .footer {
     grid-template-columns: repeat(3, 2fr);
     height: 50vh;
-    margin-top: 90rem;
     display: grid;
   }
 
@@ -1283,7 +1290,12 @@
     height: 8px;
   }
 
-  .footer-link h3, .foot p {
+  .footer-link h3 {
+    font-size: 10px;
+  }
+
+  .foot p {
+    margin-top: 15rem;
     font-size: 10px;
   }
 

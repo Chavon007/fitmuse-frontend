@@ -77,4 +77,12 @@
   text-decoration: underline;
 }
 
+@media (width <= 550px) {
+  .wishlist1 {
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+  }
+}
+
 /*# sourceMappingURL=component_wishList_wishlist_css_f9ee138c._.single.css.map*/

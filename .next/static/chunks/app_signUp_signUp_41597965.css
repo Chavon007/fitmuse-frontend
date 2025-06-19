@@ -92,5 +92,28 @@
   width: 50%;
 }
 
+@media (width <= 550px) {
+  .SignUp1 {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+
+  .signUp2 {
+    flex-direction: column;
+    width: 80%;
+    display: flex;
+  }
+
+  .signUp-content {
+    width: 90%;
+  }
+
+  .image {
+    display: none;
+  }
+}
+
 
 /*# sourceMappingURL=app_signUp_signUp_41597965.css.map*/

@@ -150,6 +150,14 @@
   text-decoration: underline;
 }
 
+@media (width <= 550px) {
+  .wishlist1 {
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+  }
+}
+
 
 /* [project]/component/mainwishlist/mainwishlist.css [app-client] (css) */
 .mainWishlist1 {

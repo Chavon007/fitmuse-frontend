@@ -26,15 +26,15 @@
   flex-direction: column;
   margin: 20px;
 }
-.message-error{
+.message-error {
   font-family: sans-serif;
   font-size: 12px;
   padding: 10px;
   color: #870535;
   font-weight: 500;
 }
-.message-success{
-    font-family: sans-serif;
+.message-success {
+  font-family: sans-serif;
   font-size: 12px;
   padding: 10px;
   color: green;
@@ -73,9 +73,28 @@
   color: #fff;
   cursor: pointer;
 }
-.form1 button:hover{
-    background: #870535;
+.form1 button:hover {
+  background: #870535;
 }
-.image{
-    width: 50%;
+.image {
+  width: 50%;
+}
+@media (max-width: 550px) {
+  .SignUp1 {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+  }
+  .signUp2 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .signUp-content {
+    width: 90%;
+  }
+  .image {
+    display: none;
+  }
 }
