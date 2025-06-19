@@ -504,6 +504,12 @@
   }
 }
 
+*, :before, :after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .Header {
   background: #fff;
   width: 100%;
@@ -1104,6 +1110,10 @@
 }
 
 @media (width <= 600px) {
+  body {
+    width: 28%;
+  }
+
   .Header {
     width: 28%;
     position: relative;
@@ -1286,18 +1296,18 @@
   .mainsupport {
     background-position: center;
     background-size: cover;
-    width: 40%;
+    width: 28%;
   }
 
   .mainStore {
     background-position: center;
     background-size: cover;
-    width: 40%;
+    width: 28%;
     height: auto;
   }
 
   .mainwishlist, .mainCart {
-    width: 40%;
+    width: 28%;
   }
 }
 

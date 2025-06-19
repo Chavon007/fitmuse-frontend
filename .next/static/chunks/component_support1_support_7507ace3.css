@@ -217,9 +217,13 @@
     font-size: 13px;
   }
 
+  .support-search {
+    width: 100%;
+  }
+
   .support-search-header h4 {
     padding: 10px;
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .support-search-form {

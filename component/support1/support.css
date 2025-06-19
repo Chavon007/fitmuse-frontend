@@ -197,10 +197,12 @@
   }
   .support-search {
     /* background: red; */
+    width: 100%;
+    /* background: red; */
   }
   .support-search-header h4 {
     /* width: 300px; */
-    font-size: 13px;
+    font-size: 11px;
     padding: 10px;
     /* background: red; */
     /* margin-right: 40rem; */

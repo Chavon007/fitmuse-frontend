@@ -101,12 +101,12 @@
 }
 @media (max-width: 600px) {
   .cart-sider{
-    width: 35%;
+    width: 80%;
   }
   .cart-sider.open{
-    right: 850;
+    right: 10;
   }
   .cart-overlay{
-    width: 40%;
+    width: 20%;
   }
 }

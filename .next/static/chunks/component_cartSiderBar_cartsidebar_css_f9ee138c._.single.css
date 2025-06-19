@@ -112,17 +112,17 @@
   color: #e85656;
 }
 
-@media (width <= 550px) {
+@media (width <= 600px) {
   .cart-sider {
-    width: 35%;
+    width: 80%;
   }
 
   .cart-sider.open {
-    right: 850px;
+    right: 10px;
   }
 
   .cart-overlay {
-    width: 40%;
+    width: 20%;
   }
 }
 

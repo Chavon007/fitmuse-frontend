@@ -20,6 +20,13 @@
     --foreground: #ededed;
   }
 }
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .Header {
   background: #fff;
   width: 100%;
@@ -565,6 +572,9 @@
 }
 
 @media (max-width: 600px) {
+  body {
+    width: 28%;
+  }
   .Header {
     /* background: red; */
     width: 28%;
@@ -678,7 +688,7 @@
     /* width: 70%;
     margin: 0 auto; */
   }
-  .normal-card{
+  .normal-card {
     width: 80%;
   }
   .about {
@@ -696,14 +706,13 @@
     /* align-items: center; */
     justify-content: center;
   }
-  .about_text h3{
+  .about_text h3 {
     font-size: 18px;
-    
   }
-   .about_text p{
+  .about_text p {
     margin-top: 10px;
     font-size: 15px;
-   }
+  }
   .card-header {
     margin-top: 3rem;
   }
@@ -731,7 +740,7 @@
   .footer-link h3 {
     font-size: 10px;
   }
-  .foot{
+  .foot {
     width: 28%;
   }
   .foot p {
@@ -739,21 +748,21 @@
     font-size: 10px;
   }
   .mainsupport {
-    width: 40%;
+    width: 28%;
     background-position: center;
     background-size: cover;
   }
   .mainStore {
-    width: 40%;
+    width: 28%;
     background-position: center;
     background-size: cover;
     height: auto;
   }
-  .mainwishlist{
-    width: 40%;
+  .mainwishlist {
+    width: 28%;
   }
-  .mainCart{
-    width: 40%;
+  .mainCart {
+    width: 28%;
   }
 }
 @media (max-width: 1400px) {
