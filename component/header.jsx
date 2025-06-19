@@ -18,7 +18,9 @@ function Header() {
   const toggleMenu = () => setMenuOpen(!menuOpen);
   return (
     <div className="container">
+
       <div className="Header">
+
         <div className="navHead">
           <div className="navbar">
             <div className="navbar-header">
@@ -134,6 +136,7 @@ function Header() {
             {menuOpen ? <FaTimes /> : <GiHamburgerMenu />}
           </button>
         </div>
+        
       </div>
     </div>
   );

@@ -41,24 +41,24 @@
   background: blue;
   text-decoration: underline;
 }
-@media (max-width: 5550px) {
+ @media (max-width: 5550px) {
   .emptyWishList{
     width: 90%;
     /* background: red; */
-  }
+   }
   .emptyIcon{
     font-size: 15px;
-  }
-  .emptyWishList h4{
+  } 
+   .emptyWishList h4{
     font-size: 18px;
   }
   .emptyWishList p{
-    width: 400px;
-    /* background: red; */
-    text-align: center;
+    width: 400px; 
+     /* background: red;  */
+     text-align: center;
     font-size: 10px;
   }
   .emptyWishList a{
     font-size: 10px;
   }
-}
+} 

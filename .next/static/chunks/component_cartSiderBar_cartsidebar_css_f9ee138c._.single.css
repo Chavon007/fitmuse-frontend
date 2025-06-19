@@ -112,4 +112,18 @@
   color: #e85656;
 }
 
+@media (width <= 550px) {
+  .cart-sider {
+    width: 35%;
+  }
+
+  .cart-sider.open {
+    right: 850px;
+  }
+
+  .cart-overlay {
+    width: 40%;
+  }
+}
+
 /*# sourceMappingURL=component_cartSiderBar_cartsidebar_css_f9ee138c._.single.css.map*/

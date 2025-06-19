@@ -112,6 +112,20 @@
   color: #e85656;
 }
 
+@media (width <= 550px) {
+  .cart-sider {
+    width: 35%;
+  }
+
+  .cart-sider.open {
+    right: 850px;
+  }
+
+  .cart-overlay {
+    width: 40%;
+  }
+}
+
 
 /* [project]/component/cartItem/cartItem.css [app-client] (css) */
 .maincart {
@@ -249,7 +263,7 @@ button span {
     color: red;
     font-size: 8px;
     position: absolute;
-    top: 3px;
+    top: 4px;
     right: 7px;
   }
 }

@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/component/carticonmain/carticonmain.css"],"sourcesContent":["button{\r\n    position: relative;\r\n    \r\n}\r\nbutton span{\r\n    position: absolute;\r\n    top: 8;\r\n    font-size: 15px;\r\n    color: red;\r\n}\r\n@media (max-width: 550px) {\r\n    button{\r\n        position: relative;\r\n    }\r\n    button span{\r\n    position: absolute;\r\n    top: 3;\r\n    right: 7;\r\n    font-size: 8px;\r\n    color: red;\r\n    }\r\n}"],"names":[],"mappings":"AAAA;;;;AAIA;;;;;;;AAMA;EACI;;;;EAGA"}}]
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/component/carticonmain/carticonmain.css"],"sourcesContent":["button{\r\n    position: relative;\r\n    \r\n}\r\nbutton span{\r\n    position: absolute;\r\n    top: 8;\r\n    font-size: 15px;\r\n    color: red;\r\n}\r\n@media (max-width: 550px) {\r\n    button{\r\n        position: relative;\r\n    }\r\n    button span{\r\n    position: absolute;\r\n    top: 4;\r\n    right: 7;\r\n    font-size: 8px;\r\n    color: red;\r\n    }\r\n}"],"names":[],"mappings":"AAAA;;;;AAIA;;;;;;;AAMA;EACI;;;;EAGA"}}]
 }

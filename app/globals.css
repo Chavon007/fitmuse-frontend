@@ -200,14 +200,27 @@
 .card-header {
   margin-top: 3rem;
   width: 100%;
-  height: 463px;
-}
-.content1 {
   height: auto;
+  margin-bottom: 50px;
 }
+
 .card-content {
   width: 90%;
   margin: 0 auto;
+}
+.card-write {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 20px;
+}
+.card-content1 {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.card-content1:hover {
+  transform: scale(1.01);
 }
 .card-content h2 {
   font-size: 32px;
@@ -219,40 +232,6 @@
   line-height: 1.1;
   font-weight: 600;
   color: #23263b;
-}
-.custom-arrow {
-  background-color: #fff;
-  color: #fff;
-  height: auto;
-  padding: 20px;
-  border-radius: 1px;
-  position: absolute;
-  top: 40%;
-  z-index: 10;
-  cursor: pointer;
-  display: flex;
-  justify-items: center;
-}
-.custom-arrow:hover {
-  background: #fff !important;
-}
-
-.next-arrow {
-  right: -30px;
-}
-
-.prev-arrow {
-  left: -30px;
-}
-
-.slick-track {
-  display: flex !important;
-  justify-content: space-evenly;
-  gap: 40px;
-}
-
-.slick-slide {
-  width: 1200px;
 }
 
 .card-content1 {
@@ -288,12 +267,9 @@
 }
 .lastcard {
   /* background: #eaefef; */
-  padding-left: 3px;
+  padding-left: 10px;
 }
-.slick-arrow:hover {
-  background: #fff;
-  color: #000;
-}
+
 .lastcard .name {
   font-family: sans-serif;
   font-size: 12px;
@@ -390,6 +366,11 @@
   /* width: 100% !important; */
   object-fit: cover;
 }
+.secondCard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
 .normal-card {
   /* border: 1px solid #000; */
   /* background: red; */
@@ -411,6 +392,12 @@
   color: #23263b;
   font-weight: 400;
   line-height: 1.4;
+}
+.mobile-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 1rem;
 }
 .card-writeUp h5 {
   font-family: sans-serif;
@@ -580,7 +567,7 @@
 @media (max-width: 550px) {
   .Header {
     /* background: red; */
-    width: 100%;
+    width: 40%;
     position: relative;
   }
   .hamburger {
@@ -643,42 +630,43 @@
     font-family: serif;
     font-weight: lighter;
   }
+
   .banner {
+    width: 40%;
+    background-position: center;
+    background-size: cover;
     height: 40vh;
   }
   .banner-header h2 {
-    font-size: 15px;
+    font-size: 18px;
   }
   .banner-header p {
-    font-size: 10px;
+    font-size: 15px;
+  }
+  .card-header {
+    height: auto;
+    width: 40%;
   }
   .card-content h2 {
     font-size: 15px;
   }
-  .custom-arrow {
-    display: none;
-  }
-  #GenCard {
-    height: 100vh;
-  }
-  .card-content1 {
+  .card-write {
     display: flex;
     flex-direction: column;
-    /* margin-bottom: 13rem; */
-    /* height: 300px; */
     width: 90%;
     margin: 0 auto;
-    /* height: 100vh; */
+    gap: 2rem;
   }
   .summer {
-    margin-top: 115rem;
+    width: 40%;
+    /* margin-top: 115rem; */
     margin-bottom: 1rem;
     height: 125vh;
   }
   .summmer-content {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
   }
   .summer-content-header h2 {
@@ -691,7 +679,8 @@
     margin: 0 auto;
   }
   .about {
-    margin-top: 115rem;
+    width: 40%;
+    /* margin-top: 115rem; */
   }
   .about-image {
     display: none;
@@ -713,10 +702,13 @@
   .accesories {
     display: flex;
     flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
   }
   .footer {
     /* margin-top: 90rem; */
     display: grid;
+    width: 40%;
     grid-template-columns: repeat(3, 2fr);
     height: 50vh;
     /* background: #fff; */
@@ -728,23 +720,32 @@
   .footer-link h3 {
     font-size: 10px;
   }
+  .foot{
+    width: 40%;
+  }
   .foot p {
-    margin-top: 15rem;
+    /* margin-top: 15rem; */
     font-size: 10px;
   }
   .mainsupport {
-    width: 100%;
+    width: 40%;
     background-position: center;
     background-size: cover;
   }
   .mainStore {
-    width: 100%;
+    width: 40%;
     background-position: center;
     background-size: cover;
     height: auto;
   }
+  .mainwishlist{
+    width: 40%;
+  }
+  .mainCart{
+    width: 40%;
+  }
 }
-@media (max-with: 1400px) {
+@media (max-width: 1400px) {
   .container {
     width: 1400px;
     margin: 0 auto;

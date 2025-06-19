@@ -1,3 +1,4 @@
+
 import { RiStarSFill } from "react-icons/ri";
 import Image from "next/image";
 
@@ -10,8 +11,10 @@ function Summer() {
         <div className="summer-content-header">
           <h2>SPRING/SUMMER 2021</h2>
         </div>
+
         <div className="card">
-          <div className="card-content1 wide-card">
+
+          <div className="card-contents wide-card">
             <div id="card-image">
               <Image
                 src="/s1.jpg"
@@ -37,7 +40,7 @@ function Summer() {
           </div>
 
          <div className="secondCard">
-               <div className="card-content1 normal-card">
+          <div className="cards normal-card">
             <div id="card-image">
               <Image
                 src="/s2.jpg"
@@ -62,7 +65,7 @@ function Summer() {
             </div>
           </div>
 
-          <div className="card-content1 normal-card">
+          <div className="cards normal-card">
             <div id="card-image">
               <Image
                 src="/s3.png"
@@ -88,7 +91,7 @@ function Summer() {
           </div>
          </div>
 
-          <div className="card-content1 wide-card">
+          <div className="card-contents wide-card">
             <div id="card-image">
               <Image
                 src="/s4.jpg"
@@ -112,6 +115,7 @@ function Summer() {
               </h6>
             </div>
           </div>
+
         </div>
       </div>
     </div>

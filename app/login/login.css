@@ -107,7 +107,7 @@
 
 @media (max-width: 550px) {
   .login {
-    width: 100%;
+    width: 40%;
     background-position: center;
     background-size: cover;
     height: auto;
