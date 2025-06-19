@@ -564,10 +564,10 @@
   padding: 10px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .Header {
     /* background: red; */
-    width: 40%;
+    width: 28%;
     position: relative;
   }
   .hamburger {
@@ -632,7 +632,7 @@
   }
 
   .banner {
-    width: 40%;
+    width: 28%;
     background-position: center;
     background-size: cover;
     height: 40vh;
@@ -645,7 +645,7 @@
   }
   .card-header {
     height: auto;
-    width: 40%;
+    width: 28%;
   }
   .card-content h2 {
     font-size: 15px;
@@ -658,7 +658,7 @@
     gap: 2rem;
   }
   .summer {
-    width: 40%;
+    width: 28%;
     /* margin-top: 115rem; */
     margin-bottom: 1rem;
     height: 125vh;
@@ -675,11 +675,14 @@
   .secondCard {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 90%;
-    margin: 0 auto;
+    /* width: 70%;
+    margin: 0 auto; */
+  }
+  .normal-card{
+    width: 80%;
   }
   .about {
-    width: 40%;
+    width: 28%;
     /* margin-top: 115rem; */
   }
   .about-image {
@@ -693,6 +696,14 @@
     /* align-items: center; */
     justify-content: center;
   }
+  .about_text h3{
+    font-size: 18px;
+    
+  }
+   .about_text p{
+    margin-top: 10px;
+    font-size: 15px;
+   }
   .card-header {
     margin-top: 3rem;
   }
@@ -708,7 +719,7 @@
   .footer {
     /* margin-top: 90rem; */
     display: grid;
-    width: 40%;
+    width: 28%;
     grid-template-columns: repeat(3, 2fr);
     height: 50vh;
     /* background: #fff; */
@@ -721,7 +732,7 @@
     font-size: 10px;
   }
   .foot{
-    width: 40%;
+    width: 28%;
   }
   .foot p {
     /* margin-top: 15rem; */

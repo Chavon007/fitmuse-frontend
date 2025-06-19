@@ -99,7 +99,7 @@
 .cart-total .cart-checkout:hover {
   color: rgb(232, 86, 86);
 }
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .cart-sider{
     width: 35%;
   }
