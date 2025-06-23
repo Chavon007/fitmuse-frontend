@@ -1,4 +1,5 @@
 "use client";
+console.log("🧪 API Endpoint:", `${process.env.NEXT_PUBLIC_DOMAIN_NAME}/api/auth/login`);
 
 import "./login.css";
 import Link from "next/link";
