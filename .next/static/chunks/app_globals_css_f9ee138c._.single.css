@@ -1111,7 +1111,8 @@
 
 @media (width <= 600px) {
   body {
-    width: 28%;
+    height: fit-content;
+    overflow-x: hidden;
   }
 
   .Header {
