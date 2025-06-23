@@ -10,37 +10,36 @@ function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true);
   const router = useRouter();
 
- const login = async (email, password) => {
-  try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_DOMAIN_NAME}/api/auth/login`,
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        credentials: "include",
-        body: JSON.stringify({ email, password }),
+  const login = async (email, password) => {
+    try {
+      const res = await fetch(
+        `${process.env.NEXT_PUBLIC_DOMAIN_NAME}/api/auth/login`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          credentials: "include",
+          body: JSON.stringify({ email, password }),
+        }
+      );
+
+      const data = await res.json();
+      console.log("Login Response:", data); 
+
+      if (res.ok) {
+        setUser(data.user);
+        setToken(data.token);
+        localStorage.setItem("token", data.token);
+        localStorage.setItem("user", JSON.stringify(data.user));
+        console.log(" Stored token:", data.token);
+        console.log(" Stored user:", data.user);
+        router.push("/cart");
+      } else {
+        console.error(" Login failed:", data.message);
       }
-    );
-
-    const data = await res.json();
-    console.log("Login Response:", data); // ✅ ADD THIS
-
-    if (res.ok) {
-      setUser(data.user);
-      setToken(data.token);
-      localStorage.setItem("token", data.token);
-      localStorage.setItem("user", JSON.stringify(data.user));
-      console.log("✅ Stored token:", data.token); // ✅ ADD THIS
-      console.log("✅ Stored user:", data.user);   // ✅ ADD THIS
-      router.push("/cart");
-    } else {
-      console.error("❌ Login failed:", data.message); // ✅ ADD THIS
+    } catch (err) {
+      console.error(" Login Error:", err);
     }
-  } catch (err) {
-    console.error("❌ Login Error:", err); // ✅ ADD THIS
-  }
-};
-
+  };
 
   useEffect(() => {
     const verifyUser = async () => {

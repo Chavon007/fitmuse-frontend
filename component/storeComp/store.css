@@ -140,6 +140,7 @@
     width: 100%;
   }
   .store-map{
+    width: 25%;
     margin-bottom: 10px;
   }
 }
