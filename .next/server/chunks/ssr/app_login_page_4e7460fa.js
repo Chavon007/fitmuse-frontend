@@ -45,9 +45,6 @@ function User() {
             await login(email, password);
             setMessage("Login successful");
             setIsSuccess(true);
-            setTimeout(()=>{
-                setMessage("");
-            }, 3000);
         } catch (error) {
             console.error("Login error:", error);
             setMessage("Login failed. Try again.");
@@ -66,13 +63,13 @@ function User() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "login-form",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
-                                        className: "text-green",
+                                    message && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
+                                        className: `mb-2 text-sm ${isSuccess ? "text-green-500" : "text-red-500"}`,
                                         children: message
                                     }, void 0, false, {
                                         fileName: "[project]/app/login/page.js",
-                                        lineNumber: 54,
-                                        columnNumber: 15
+                                        lineNumber: 52,
+                                        columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                         className: "lForm",
@@ -88,7 +85,7 @@ function User() {
                                                 autoComplete: "off"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/login/page.js",
-                                                lineNumber: 60,
+                                                lineNumber: 65,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -100,13 +97,13 @@ function User() {
                                                 autoComplete: "new-password"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/login/page.js",
-                                                lineNumber: 68,
+                                                lineNumber: 73,
                                                 columnNumber: 17
                                             }, this),
                                             " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/app/login/page.js",
-                                                lineNumber: 76,
+                                                lineNumber: 81,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -114,19 +111,19 @@ function User() {
                                                 children: "Sign In"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/login/page.js",
-                                                lineNumber: 77,
+                                                lineNumber: 82,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/login/page.js",
-                                        lineNumber: 55,
+                                        lineNumber: 60,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/login/page.js",
-                                lineNumber: 53,
+                                lineNumber: 50,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -136,7 +133,7 @@ function User() {
                                         children: "You do not have an account? "
                                     }, void 0, false, {
                                         fileName: "[project]/app/login/page.js",
-                                        lineNumber: 82,
+                                        lineNumber: 87,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -144,13 +141,13 @@ function User() {
                                         children: "Click here"
                                     }, void 0, false, {
                                         fileName: "[project]/app/login/page.js",
-                                        lineNumber: 83,
+                                        lineNumber: 88,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/login/page.js",
-                                lineNumber: 81,
+                                lineNumber: 86,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -159,18 +156,18 @@ function User() {
                                     children: "For further support, you may visit the Help Center or contact our customer service team."
                                 }, void 0, false, {
                                     fileName: "[project]/app/login/page.js",
-                                    lineNumber: 87,
+                                    lineNumber: 92,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/login/page.js",
-                                lineNumber: 86,
+                                lineNumber: 91,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/login/page.js",
-                        lineNumber: 52,
+                        lineNumber: 49,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -187,28 +184,28 @@ function User() {
                             }
                         }, void 0, false, {
                             fileName: "[project]/app/login/page.js",
-                            lineNumber: 95,
+                            lineNumber: 100,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/login/page.js",
-                        lineNumber: 94,
+                        lineNumber: 99,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/login/page.js",
-                lineNumber: 51,
+                lineNumber: 48,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/login/page.js",
-            lineNumber: 50,
+            lineNumber: 47,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/login/page.js",
-        lineNumber: 49,
+        lineNumber: 46,
         columnNumber: 5
     }, this);
 }

@@ -1,6 +1,11 @@
 /* [project]/app/globals.css [app-client] (css) */
 @layer theme {
   :root, :host {
+    --color-red-500: oklch(63.7% .237 25.331);
+    --color-green-500: oklch(72.3% .219 149.579);
+    --spacing: .25rem;
+    --text-sm: .875rem;
+    --text-sm--line-height: calc(1.25 / .875);
     --default-font-family: var(--font-geist-sans);
     --default-mono-font-family: var(--font-geist-mono);
   }
@@ -223,6 +228,23 @@
     .container {
       max-width: 96rem;
     }
+  }
+
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
+
+  .text-sm {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
+  }
+
+  .text-green-500 {
+    color: var(--color-green-500);
+  }
+
+  .text-red-500 {
+    color: var(--color-red-500);
   }
 
   .antialiased {

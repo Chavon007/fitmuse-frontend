@@ -18,9 +18,7 @@ function Header() {
   const toggleMenu = () => setMenuOpen(!menuOpen);
   return (
     <div className="container">
-
       <div className="Header">
-
         <div className="navHead">
           <div className="navbar">
             <div className="navbar-header">
@@ -35,46 +33,44 @@ function Header() {
               </Link>
             </div>
 
-            
-              <div className="mobile-menu">
-                <div className={`navbar-support ${menuOpen ? "show" : "hide"}`}>
-                  <ul>
-                    <li>
-                      <Link href="/support">
-                        <BsHeadset title="Support" /> <p>Support</p>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/store">
-                        <FaMapMarkerAlt title="Location" /> <p>Find a store</p>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className={`navbar-user ${menuOpen ? "show" : "hide"}`}>
-                  <ul>
-                    <li>
-                      <Link href="/wishlist">
-                        <FaRegHeart title="Liked Product" />
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link href="/login">
-                        <FaRegUser title="Login" />
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link href="/cart">
-                        <FaStoreAlt title="Store" />
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
+            <div className="mobile-menu">
+              <div className={`navbar-support ${menuOpen ? "show" : "hide"}`}>
+                <ul>
+                  <li>
+                    <Link href="/support" onClick={() => setMenuOpen(false)}>
+                      <BsHeadset title="Support" /> <p>Support</p>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/store" onClick={() => setMenuOpen(false)}>
+                      <FaMapMarkerAlt title="Location" /> <p>Find a store</p>
+                    </Link>
+                  </li>
+                </ul>
               </div>
-          
+
+              <div className={`navbar-user ${menuOpen ? "show" : "hide"}`}>
+                <ul>
+                  <li>
+                    <Link href="/wishlist" onClick={() => setMenuOpen(false)}>
+                      <FaRegHeart title="Liked Product" />
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link href="/login" onClick={() => setMenuOpen(false)}>
+                      <FaRegUser title="Login" />
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link href="/cart" onClick={() => setMenuOpen(false)}>
+                      <FaStoreAlt title="Store" />
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <div className="wears-page">
@@ -136,7 +132,6 @@ function Header() {
             {menuOpen ? <FaTimes /> : <GiHamburgerMenu />}
           </button>
         </div>
-        
       </div>
     </div>
   );
