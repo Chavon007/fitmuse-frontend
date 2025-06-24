@@ -25,16 +25,21 @@ function User() {
 
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       setMessage("Email must contain .com");
+      setIsSuccess(false);
       return;
     } else if (password.length < 8) {
       setMessage("Password must contain at least 8 characters");
+      setIsSuccess(false);
       return;
-    } else {
     }
 
     try {
       await login(email, password);
       setMessage("Login successful");
+      setIsSuccess(true);
+      setTimeout(() => {
+        setMessage("");
+      }, 3000);
     } catch (error) {
       console.error("Login error:", error);
       setMessage("Login failed. Try again.");
@@ -46,7 +51,7 @@ function User() {
         <div className="newform">
           <div className="login-content">
             <div className="login-form">
-              <h5 className="text-geen">{message}</h5>
+              <h5 className="text-green">{message}</h5>
               <form
                 className="lForm"
                 onSubmit={handleSubmit}
