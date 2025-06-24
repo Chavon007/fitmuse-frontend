@@ -37,9 +37,6 @@ function User() {
       await login(email, password);
       setMessage("Login successful");
       setIsSuccess(true);
-      setTimeout(() => {
-        setMessage("");
-      }, 3000);
     } catch (error) {
       console.error("Login error:", error);
       setMessage("Login failed. Try again.");
@@ -51,7 +48,15 @@ function User() {
         <div className="newform">
           <div className="login-content">
             <div className="login-form">
-              <h5 className="text-green">{message}</h5>
+              {message && (
+                <h5
+                  className={`mb-2 text-sm ${
+                    isSuccess ? "text-green-500" : "text-red-500"
+                  }`}
+                >
+                  {message}
+                </h5>
+              )}
               <form
                 className="lForm"
                 onSubmit={handleSubmit}
