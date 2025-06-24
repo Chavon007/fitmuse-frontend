@@ -71,10 +71,14 @@
   text-decoration: underline;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .wishlist1 {
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+  .react-hot-toast {
+    top: 1rem !important;
+    right: 1rem !important;
   }
 }

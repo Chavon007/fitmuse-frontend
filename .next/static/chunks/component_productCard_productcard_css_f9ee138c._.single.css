@@ -100,10 +100,15 @@
   text-decoration: underline;
 }
 
-@media (width) {
+@media (width <= 600px) {
   .productCard {
     flex-direction: column;
     display: flex;
+  }
+
+  .react-hot-toast {
+    top: 1rem !important;
+    right: 1rem !important;
   }
 }
 

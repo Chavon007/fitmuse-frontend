@@ -179,7 +179,7 @@
   color: #b1bdf5;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .support-content {
     width: 100%;
     margin: 0 auto;

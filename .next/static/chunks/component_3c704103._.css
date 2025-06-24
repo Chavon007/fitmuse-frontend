@@ -254,7 +254,7 @@ button span {
   top: 8px;
 }
 
-@media (width <= 550px) {
+@media (width <= 600px) {
   button {
     position: relative;
   }
@@ -301,7 +301,7 @@ button span {
   color: #000;
 }
 
-@media (width <= 550px) {
+@media (width <= 600px) {
   .cartDisplay-header h2 {
     font-size: 12px;
   }
@@ -323,7 +323,7 @@ button span {
   display: grid;
 }
 
-@media (width <= 550px) {
+@media (width <= 600px) {
   .productlist {
     flex-direction: column;
     width: 80%;
@@ -434,10 +434,15 @@ button span {
   text-decoration: underline;
 }
 
-@media (width) {
+@media (width <= 600px) {
   .productCard {
     flex-direction: column;
     display: flex;
+  }
+
+  .react-hot-toast {
+    top: 1rem !important;
+    right: 1rem !important;
   }
 }
 

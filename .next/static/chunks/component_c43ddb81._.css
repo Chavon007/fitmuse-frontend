@@ -46,7 +46,7 @@
   text-decoration: underline;
 }
 
-@media (width <= 5550px) {
+@media (width <= 600px) {
   .emptyWishList {
     width: 90%;
   }
@@ -61,7 +61,7 @@
 
   .emptyWishList p {
     text-align: center;
-    width: 400px;
+    width: 280px;
     font-size: 10px;
   }
 
@@ -150,11 +150,16 @@
   text-decoration: underline;
 }
 
-@media (width <= 550px) {
+@media (width <= 600px) {
   .wishlist1 {
     flex-direction: column;
     gap: 20px;
     display: flex;
+  }
+
+  .react-hot-toast {
+    top: 1rem !important;
+    right: 1rem !important;
   }
 }
 
@@ -191,14 +196,14 @@
   font-weight: 100;
 }
 
-@media (width <= 550px) {
+@media (width <= 600px) {
   .mainwish-header {
     width: 90%;
     margin: 0 auto;
   }
 
   .mainwish-header h2 {
-    width: 400px;
+    width: 250px;
     padding: 5px;
     font-size: 18px;
   }

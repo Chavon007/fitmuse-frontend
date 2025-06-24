@@ -131,7 +131,7 @@
   border: none;
 }
 
-@media (width <= 550px) {
+@media (width <= 600px) {
   .storeheader {
     width: 300px;
   }

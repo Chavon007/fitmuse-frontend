@@ -1,5 +1,8 @@
 "use client";
-console.log("🧪 API Endpoint:", `${process.env.NEXT_PUBLIC_DOMAIN_NAME}/api/auth/login`);
+console.log(
+  "🧪 API Endpoint:",
+  `${process.env.NEXT_PUBLIC_DOMAIN_NAME}/api/auth/login`
+);
 
 import "./login.css";
 import Link from "next/link";
@@ -26,10 +29,12 @@ function User() {
     } else if (password.length < 8) {
       setMessage("Password must contain at least 8 characters");
       return;
+    } else {
     }
 
     try {
-      await login(email, password); 
+      await login(email, password);
+      setMessage("Login successful");
     } catch (error) {
       console.error("Login error:", error);
       setMessage("Login failed. Try again.");
@@ -40,7 +45,6 @@ function User() {
       <div className="login-area">
         <div className="newform">
           <div className="login-content">
-            
             <div className="login-form">
               <h5 className="text-geen">{message}</h5>
               <form
@@ -91,7 +95,6 @@ function User() {
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
           </div>
-
         </div>
       </div>
     </div>

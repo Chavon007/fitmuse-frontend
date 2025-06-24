@@ -28,7 +28,7 @@
     color: #000;
 }
 
- @media (max-width:550px) {
+ @media (max-width:600px) {
     .cartDisplay-header h2{
         font-size: 12px;
     }

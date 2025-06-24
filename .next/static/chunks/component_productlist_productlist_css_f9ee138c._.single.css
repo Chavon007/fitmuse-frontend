@@ -9,7 +9,7 @@
   display: grid;
 }
 
-@media (width <= 550px) {
+@media (width <= 600px) {
   .productlist {
     flex-direction: column;
     width: 80%;

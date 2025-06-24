@@ -126,7 +126,7 @@
   color: white;
   border: none;
 }
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .storeheader {
     /* background: red; */
     width: 300px;

@@ -573,13 +573,13 @@
 
 @media (max-width: 600px) {
   body {
-    /* width: 28%; */
-    overflow-x: hidden;
+    /* width: 100%; */
+    /* overflow-x: hidden; */
     height: fit-content;
   }
   .Header {
     /* background: red; */
-    width: 28%;
+    width: 100%;
     position: relative;
   }
   .hamburger {
@@ -644,7 +644,7 @@
   }
 
   .banner {
-    width: 28%;
+    width: 100%;
     background-position: center;
     background-size: cover;
     height: 40vh;
@@ -657,7 +657,7 @@
   }
   .card-header {
     height: auto;
-    width: 28%;
+    width: 100%;
   }
   .card-content h2 {
     font-size: 15px;
@@ -670,7 +670,7 @@
     gap: 2rem;
   }
   .summer {
-    width: 28%;
+    width: 100%;
     /* margin-top: 115rem; */
     margin-bottom: 1rem;
     height: 125vh;
@@ -694,7 +694,7 @@
     width: 80%;
   }
   .about {
-    width: 28%;
+    width: 100%;
     /* margin-top: 115rem; */
   }
   .about-image {
@@ -730,7 +730,7 @@
   .footer {
     /* margin-top: 90rem; */
     display: grid;
-    width: 28%;
+    width: 100%;
     grid-template-columns: repeat(3, 2fr);
     height: 50vh;
     /* background: #fff; */
@@ -743,36 +743,37 @@
     font-size: 10px;
   }
   .foot {
-    width: 28%;
+    width: 100%;
   }
   .foot p {
     /* margin-top: 15rem; */
     font-size: 10px;
   }
   .mainsupport {
-    width: 28%;
+    width: 100%;
     background-position: center;
     background-size: cover;
   }
   .mainStore {
-    width: 28%;
+    width: 100%;
     background-position: center;
     background-size: cover;
     height: auto;
   }
+  .react-hot-toast {
+    top: 1rem !important;
+    right: 1rem !important;
+  }
   .mainwishlist {
-    width: 28%;
+    width: 100%;
   }
   .mainCart {
-    width: 28%;
+    width: 100%;
   }
 }
-@media (max-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .container {
-    width: 1400px;
+    max-width: 1400px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 }

@@ -41,7 +41,7 @@
   background: blue;
   text-decoration: underline;
 }
- @media (max-width: 5550px) {
+ @media (max-width: 600px) {
   .emptyWishList{
     width: 90%;
     /* background: red; */
@@ -53,7 +53,7 @@
     font-size: 18px;
   }
   .emptyWishList p{
-    width: 400px; 
+    width: 280px; 
      /* background: red;  */
      text-align: center;
     font-size: 10px;

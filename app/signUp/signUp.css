@@ -79,9 +79,9 @@
 .image {
   width: 50%;
 }
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .SignUp1 {
-    width: 280%;
+    width: 100%;
     background-position: center;
     background-size: cover;
     height: auto;

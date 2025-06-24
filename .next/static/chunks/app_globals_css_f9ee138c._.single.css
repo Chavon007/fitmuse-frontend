@@ -1112,11 +1112,10 @@
 @media (width <= 600px) {
   body {
     height: fit-content;
-    overflow-x: hidden;
   }
 
   .Header {
-    width: 28%;
+    width: 100%;
     position: relative;
   }
 
@@ -1180,7 +1179,7 @@
   .banner {
     background-position: center;
     background-size: cover;
-    width: 28%;
+    width: 100%;
     height: 40vh;
   }
 
@@ -1193,7 +1192,7 @@
   }
 
   .card-header {
-    width: 28%;
+    width: 100%;
     height: auto;
   }
 
@@ -1206,7 +1205,7 @@
   }
 
   .summer {
-    width: 28%;
+    width: 100%;
     height: 125vh;
     margin-bottom: 1rem;
   }
@@ -1232,7 +1231,7 @@
   }
 
   .about {
-    width: 28%;
+    width: 100%;
   }
 
   .about-image {
@@ -1273,7 +1272,7 @@
 
   .footer {
     grid-template-columns: repeat(3, 2fr);
-    width: 28%;
+    width: 100%;
     height: 50vh;
     display: grid;
   }
@@ -1287,7 +1286,7 @@
   }
 
   .foot {
-    width: 28%;
+    width: 100%;
   }
 
   .foot p {
@@ -1297,28 +1296,30 @@
   .mainsupport {
     background-position: center;
     background-size: cover;
-    width: 28%;
+    width: 100%;
   }
 
   .mainStore {
     background-position: center;
     background-size: cover;
-    width: 28%;
+    width: 100%;
     height: auto;
   }
 
+  .react-hot-toast {
+    top: 1rem !important;
+    right: 1rem !important;
+  }
+
   .mainwishlist, .mainCart {
-    width: 28%;
+    width: 100%;
   }
 }
 
-@media (width <= 1400px) {
+@media screen and (width >= 1400px) {
   .container {
-    flex-direction: column;
-    justify-content: center;
-    width: 1400px;
+    max-width: 1400px;
     margin: 0 auto;
-    display: flex;
   }
 }
 

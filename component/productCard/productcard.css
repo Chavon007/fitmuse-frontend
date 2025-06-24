@@ -90,9 +90,13 @@
   text-decoration: underline;
 }
 
- @media (max-width) {
+@media (max-width: 600px) {
   .productCard {
     display: flex;
     flex-direction: column;
   }
-} 
+  .react-hot-toast {
+    top: 1rem !important;
+    right: 1rem !important;
+  }
+}

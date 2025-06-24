@@ -46,7 +46,7 @@
   text-decoration: underline;
 }
 
-@media (width <= 5550px) {
+@media (width <= 600px) {
   .emptyWishList {
     width: 90%;
   }
@@ -61,7 +61,7 @@
 
   .emptyWishList p {
     text-align: center;
-    width: 400px;
+    width: 280px;
     font-size: 10px;
   }
 
