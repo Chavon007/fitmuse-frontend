@@ -38,8 +38,8 @@ function User() {
       setMessage("Login successful");
       setIsSuccess(true);
     } catch (error) {
-      console.error("Login error:", error);
-      setMessage("Login failed. Try again.");
+      setMessage(error.message || "Login failed. Try again");
+      setIsSuccess(false);
     }
   };
   return (

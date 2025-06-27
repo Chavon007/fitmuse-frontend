@@ -23,21 +23,20 @@ function AuthProvider({ children }) {
       );
 
       const data = await res.json();
-      console.log("Login Response:", data); 
+      console.log("Login Response:", data);
 
-      if (res.ok) {
-        setUser(data.user);
-        setToken(data.token);
-        localStorage.setItem("token", data.token);
-        localStorage.setItem("user", JSON.stringify(data.user));
-        console.log(" Stored token:", data.token);
-        console.log(" Stored user:", data.user);
-        router.push("/cart");
-      } else {
-        console.error(" Login failed:", data.message);
+      if (!res.ok) {
+        throw new Error(data.message || "Login Failed");
       }
+      setUser(data.user);
+      setToken(data.token);
+      localStorage.setItem("token", data.token);
+      localStorage.setItem("user", JSON.stringify(data.user));
+      console.log(" Stored token:", data.token);
+      console.log(" Stored user:", data.user);
     } catch (err) {
       console.error(" Login Error:", err);
+      throw err;
     }
   };
 
