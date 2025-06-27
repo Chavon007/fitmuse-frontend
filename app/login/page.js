@@ -37,6 +37,10 @@ function User() {
       await login(email, password);
       setMessage("Login successful");
       setIsSuccess(true);
+
+      setTimeout(() => {
+        router.push("/cart");
+      }, 3000);
     } catch (error) {
       setMessage(error.message || "Login failed. Try again");
       setIsSuccess(false);
