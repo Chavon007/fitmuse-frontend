@@ -1,6 +1,4 @@
 @import "tailwindcss";
-@import "slick-carousel/slick/slick.css";
-@import "slick-carousel/slick/slick-theme.css";
 
 :root {
   --background: #ffffff;
@@ -203,140 +201,33 @@
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
 }
-
-.card-header {
-  margin-top: 3rem;
+.trend-header {
   width: 100%;
-  height: auto;
-  margin-bottom: 50px;
-}
-
-.card-content {
-  width: 90%;
-  margin: 0 auto;
-}
-.card-write {
-  display: grid;
-  grid-template-columns: repeat(4, 2fr);
-  gap: 20px;
-}
-.card-content1 {
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
-  width: 100%;
-  cursor: pointer;
-  transition: 0.3s ease-in;
-}
-.card-content1:hover {
-  transform: scale(1.01);
-}
-.card-content h2 {
-  font-size: 32px;
-  font-family: sans-serif;
-  color: #000;
-  /* margin-left: 10px; */
-  margin-bottom: 1rem;
-  letter-spacing: 2px;
-  line-height: 1.1;
-  font-weight: 600;
-  color: #23263b;
-}
-
-.card-content1 {
-  position: relative;
+  /* height: auto; */
+  /* overflow-x: hidden; */
+  /* margin-top: 10px; */
+  padding: 30px;
+  /* background: red; */
   /* border: 1px solid #000; */
 }
-.card-content1 .img {
+.trend-content {
   width: 100%;
-  height: 200px;
+  margin: 0 auto;
+  padding-bottom: 10px;
 }
-.card-content1 .heart {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-top: 5px;
-  margin-right: 5px;
-  background: #fff;
-  padding: 5px;
-  /* margin: 10px 10px; */
-}
-.card-content1 .heart:hover {
-  color: red;
-}
-.card-content1 .discount {
-  position: absolute;
-  top: 53%;
-  left: 0;
-  margin-left: 10px;
-  background: #f78125;
-  font-size: 12px;
-  font-family: "Times New Roman", Times, serif;
-  padding: 3px;
-}
-.lastcard {
-  /* background: #eaefef; */
-  padding-left: 10px;
-}
-
-.lastcard .name {
-  font-family: sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  color: #91929d;
-  line-height: 1.4;
-  padding-top: 5px;
-}
-.lastcard .desc {
-  font-family: sans-serif;
-  font-size: 10px;
-  color: #23263b;
-  font-weight: 400;
-  line-height: 1.4;
-}
-.lastcard .price {
-  font-family: sans-serif;
-  font-size: 10px;
-  font-weight: 600;
-  line-height: 1.4;
-  color: #23263b;
-}
-.lastcard .price small {
-  font-family: sans-serif;
-  font-size: 12px;
-  font-style: italic;
-  line-height: 1.4;
-  color: #91929d;
-  text-decoration: line-through;
-}
-.lastcard .icon {
+.trend-content h2 {
   display: flex;
-  line-height: 1.4;
-  font-size: 9px;
-  font-family: sans-serif;
-  font-weight: 400;
   align-items: center;
-  color: #23263b;
-  margin-top: 5px;
+  font-size: 25px;
+  font-family: serif;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  padding: 10px 0px 10px 10px;
 }
-.lastcard .icon span {
-  padding-left: 5px;
-}
-.headerbtn1 {
-  background: rgb(129, 129, 245);
-  margin: 10px auto;
-  padding: 7px;
-  font-size: 12px;
-  font-family: "Times New Roman", Times, serif;
-  border-radius: 10px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  color: #fff;
-  cursor: pointer;
-}
-
-.headerbtn1:hover {
-  background: blue;
-  text-decoration: underline;
+.trend-write {
+  /* background: red; */
 }
 .summer {
   /* margin-top: 7rem; */
@@ -493,9 +384,55 @@
   object-fit: contain;
 }
 .accesories {
+  width: 98%;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 40px;
+  gap: 10px;
+}
+.accesoriesCard {
+  /* border: 1px solid #000; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.accesoriesCard img {
+  width: 100%;
+  height: 200px;
+}
+.lastcard {
+  padding: 10px;
+}
+.lastcard .name {
+  max-width: 150px;
+  /* padding-top: 10px; */
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  letter-spacing: 1;
+  /* background: red; */
+}
+.lastcard .desc {
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  color: #6b6b6b;
+  max-width: 160px;
+}
+.lastcard .price {
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 600;
+}
+.lastcard .price small {
+  text-decoration: line-through;
+  font-weight: 100;
+}
+.lastcard .icon {
+  display: flex;
+  align-items: center;
+}
+.lastcard .icon span {
+  padding-left: 10px;
 }
 .footer {
   background: #f4f4f4;

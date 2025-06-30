@@ -60,12 +60,12 @@ function Accesories() {
 
   return (
     <div className="container">
-      <div className="card-header">
-        <div className="card-content">
+      <div className="trend-header">
+        <div className="trend-content">
           <h2>NEW IN... ACCESORIES</h2>
           <div className="accesories">
             {products.map((product, index) => (
-              <div key={index} className="card-content1">
+              <div key={index} className="accesoriesCard">
                 <Image
                   className="img"
                   src={product.image}

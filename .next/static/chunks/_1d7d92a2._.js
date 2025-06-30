@@ -997,19 +997,18 @@ function AuthProvider({ children }) {
             });
             const data = await res.json();
             console.log("Login Response:", data);
-            if (res.ok) {
-                setUser(data.user);
-                setToken(data.token);
-                localStorage.setItem("token", data.token);
-                localStorage.setItem("user", JSON.stringify(data.user));
-                console.log(" Stored token:", data.token);
-                console.log(" Stored user:", data.user);
-                router.push("/cart");
-            } else {
-                console.error(" Login failed:", data.message);
+            if (!res.ok) {
+                throw new Error(data.message || "Login Failed");
             }
+            setUser(data.user);
+            setToken(data.token);
+            localStorage.setItem("token", data.token);
+            localStorage.setItem("user", JSON.stringify(data.user));
+            console.log(" Stored token:", data.token);
+            console.log(" Stored user:", data.user);
         } catch (err) {
             console.error(" Login Error:", err);
+            throw err;
         }
     };
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
@@ -1064,7 +1063,7 @@ function AuthProvider({ children }) {
         children: children
     }, void 0, false, {
         fileName: "[project]/context/authcontext.js",
-        lineNumber: 92,
+        lineNumber: 91,
         columnNumber: 5
     }, this);
 }

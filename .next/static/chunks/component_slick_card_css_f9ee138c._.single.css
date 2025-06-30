@@ -1,0 +1,116 @@
+/* [project]/component/slick/card.css [app-client] (css) */
+.card-slick {
+  width: 100%;
+}
+
+.card-slide {
+  padding: 0 10px;
+}
+
+.newCard {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  margin-left: 10px;
+  transition: all .3s ease-in;
+  position: relative;
+}
+
+.newCard .img {
+  width: 100%;
+  height: 200px;
+}
+
+.newCard .heart {
+  background: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 4px;
+  right: 3px;
+}
+
+.newCard .heart:hover {
+  color: red;
+}
+
+.newCard .discount {
+  background: #fe9a00;
+  margin-left: 10px;
+  padding: 2px;
+  font-size: 12px;
+  position: absolute;
+  top: 52%;
+}
+
+.newcarddetails {
+  background: #f5f5f5d3;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 10px;
+  display: flex;
+}
+
+.CardName {
+  letter-spacing: 1px;
+  max-width: 150px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.CardDesc {
+  color: #6b6b6b;
+  max-width: 160px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.cardPrice {
+  font-family: Times New Roman, Times, serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.icon {
+  color: #000;
+  font-size: 10px;
+  display: flex;
+}
+
+.newcardBTN1 {
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background: #8181f5;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 7px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 12px;
+  display: flex;
+}
+
+.newcardBTN1:hover {
+  background: #00f;
+  text-decoration: underline;
+}
+
+@media (width <= 600px) {
+  .wishlist1 {
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+  }
+
+  .react-hot-toast {
+    top: 1rem !important;
+    right: 1rem !important;
+  }
+}
+
+/*# sourceMappingURL=component_slick_card_css_f9ee138c._.single.css.map*/
