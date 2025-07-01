@@ -1,0 +1,35 @@
+/* [project]/component/men/banner/banner.css [app-client] (css) */
+.bannermen {
+  background: url("/banner12.jpg") center / contain;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  display: flex;
+}
+
+.bannnermen2 {
+  width: 90%;
+  margin-top: 150px !important;
+}
+
+.banner-headermen {
+  margin-left: 20px;
+}
+
+.banner-headermen h2 {
+  letter-spacing: 1px;
+  color: #fff;
+  max-width: 200px;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.banner-headermen p {
+  color: #fff;
+  font-family: Times New Roman, Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=component_men_banner_banner_css_f9ee138c._.single.css.map*/

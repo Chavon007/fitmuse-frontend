@@ -1,0 +1,35 @@
+.bannermen {
+  background: url("/banner12.jpg");
+  height: 90vh;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  /* text-align: center; */
+}
+.bannnermen2 {
+  width: 90%;
+  margin-top: 150px !important;
+  /* background: red; */
+}
+.banner-headermen {
+  margin-left: 20px;
+}
+.banner-headermen h2 {
+  max-width: 200px;
+  /* background: red; */
+  font-size: 50px;
+  font-family: sans-serif;
+  letter-spacing: 1;
+  color: #fff;
+  font-weight: bold;
+  /* padding-top: 30px; */
+}
+.banner-headermen p {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}

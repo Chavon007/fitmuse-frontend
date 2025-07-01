@@ -1,15 +1,12 @@
 "use client";
 
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import Slider from "react-slick";
 import { FaRegStar } from "react-icons/fa6";
-import { CiHeart } from "react-icons/ci";
 import Image from "next/image";
 
 function Accesories() {
   const products = [
     {
-      image: "/A1.jpg",
+      image: "/gym1.jpg",
       name: "BRAND/TYPE",
       desc: "Name and characterics",
       price: "74,95 $",
@@ -17,7 +14,7 @@ function Accesories() {
       list: "(45)",
     },
     {
-      image: "/A2.jpg",
+      image: "/gym2.jpg",
       name: "BRAND/TYPE",
       desc: "Name and characterics",
       price: "74,95 $",
@@ -25,7 +22,7 @@ function Accesories() {
       list: "(45)",
     },
     {
-      image: "/A3.jpg",
+      image: "/gym3.jpg",
       name: "BRAND/TYPE",
       desc: "Name and characterics",
       price: "74,95 $",
@@ -33,7 +30,7 @@ function Accesories() {
       list: "(45)",
     },
     {
-      image: "/A4.jpg",
+      image: "/gym4.jpg",
       name: "BRAND/TYPE",
       desc: "Name and characterics",
       price: "74,95 $",
@@ -41,7 +38,7 @@ function Accesories() {
       list: "(45)",
     },
     {
-      image: "/A5.jpg",
+      image: "/gym5.jpg",
       name: "BRAND/TYPE",
       desc: "Name and characterics",
       price: "74,95 $",
@@ -49,7 +46,7 @@ function Accesories() {
       list: "(45)",
     },
     {
-      image: "/A6.jpg",
+      image: "/gym6.jpg",
       name: "BRAND/TYPE",
       desc: "Name and characterics",
       price: "74,95 $",

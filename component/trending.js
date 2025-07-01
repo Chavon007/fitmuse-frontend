@@ -1,5 +1,6 @@
 "use client";
-import CardSlider from "./slick/card";
+
+import CardSlidermen from "./slick/cardmen";
 function Trends() {
   return (
     <div className="container">
@@ -8,7 +9,8 @@ function Trends() {
           <h2>Trending Now</h2>
 
           <div className="flex trend-write">
-            <CardSlider />
+            
+            <CardSlidermen />
           </div>
         </div>
       </div>

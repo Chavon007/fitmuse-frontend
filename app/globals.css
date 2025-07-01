@@ -167,10 +167,10 @@
   color: #fffadc;
 }
 .banner {
-  background: url("/XL.png");
+  background: url("/banner11.jpg");
   height: 90vh;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   display: flex;
   justify-content: center;
   /* padding: 100px auto; */

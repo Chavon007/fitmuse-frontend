@@ -79,7 +79,7 @@ function Header() {
                 <Link href="/">WOMEN</Link>
               </li>
               <li>
-                <Link href="/">MEN</Link>
+                <Link href="/men">MEN</Link>
               </li>
             </ul>
           </div>
