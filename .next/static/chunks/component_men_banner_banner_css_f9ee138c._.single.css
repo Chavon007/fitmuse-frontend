@@ -32,4 +32,21 @@
   font-weight: bold;
 }
 
+@media (width <= 600px) {
+  .bannermen {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+  }
+
+  .banner-headermen h2 {
+    font-size: 18px;
+  }
+
+  .banner-headermen p {
+    font-size: 15px;
+  }
+}
+
 /*# sourceMappingURL=component_men_banner_banner_css_f9ee138c._.single.css.map*/

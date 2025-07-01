@@ -33,3 +33,18 @@
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
 }
+
+@media (max-width: 600px ) {
+    .bannermen {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+  }
+  .banner-headermen h2 {
+    font-size: 18px;
+  }
+  .banner-headermen p {
+    font-size: 15px;
+  }
+}
