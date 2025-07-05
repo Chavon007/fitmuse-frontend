@@ -1,0 +1,186 @@
+/* [project]/component/clothing/allcloth.css [app-client] (css) */
+.tops {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  display: grid;
+}
+
+.mainTop {
+  cursor: pointer;
+  border: none;
+  height: auto;
+  transition: all .3s ease-in;
+  box-shadow: 0 0 10px #00000080;
+}
+
+.mainTop:hover {
+  transform: scale(1.05);
+}
+
+.topimg {
+  position: relative;
+}
+
+.topimg .btn {
+  background: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 4px;
+  right: 5px;
+}
+
+.productCard-image .btn:hover {
+  color: red;
+}
+
+.productCardDetails {
+  background: #fff;
+  width: 100%;
+  height: 30vh;
+}
+
+.productCardDetails h3 {
+  letter-spacing: 1px;
+  padding-left: 8px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.productCardDetails .details {
+  color: #6b6b6b;
+  padding-left: 8px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.productCardDetails .p-c {
+  flex-direction: column;
+  gap: 1px;
+  padding-left: 8px;
+  display: flex;
+}
+
+.productCardDetails .p-c small {
+  margin-top: 5px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.productCardDetails .p-c span {
+  font-family: Courier New, Courier, monospace;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.productCardDetails .btn1 {
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background: #8181f5;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 7px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 12px;
+  display: flex;
+}
+
+.productCardDetails .btn1:hover {
+  background: #00f;
+  text-decoration: underline;
+}
+
+.clothinglink {
+  text-shadow: 0 0 5px #00000080;
+  align-items: center;
+  padding: 10px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 12px;
+  font-weight: bold;
+  animation: 1.5s infinite blink;
+  display: flex;
+}
+
+.clothinglink span {
+  padding-left: 10px;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+
+/* [project]/component/clothing/cloth.css [app-client] (css) */
+.clothing {
+  background: #f0f0f0;
+  flex-direction: column;
+  padding: 70px;
+  display: flex;
+}
+
+.clothing-header {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.clothing-header h2 {
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #00000080;
+  font-family: serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.clothing-header p {
+  justify-content: center;
+  margin-top: 10px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+  font-weight: 100;
+  display: flex;
+}
+
+.clothing-button {
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 15px;
+  display: flex;
+}
+
+.clothingbtn {
+  color: #fff;
+  cursor: pointer;
+  background: #575758;
+  border-radius: 10px;
+  width: 100px;
+  padding: 10px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+}
+
+.clothingbtn.active {
+  color: #fff;
+  background: #a59d9d;
+}
+
+.clothingbtn:hover {
+  background: #939393;
+}
+
+
+/*# sourceMappingURL=component_clothing_e2ec1559._.css.map*/

@@ -1,0 +1,60 @@
+/* [project]/component/clothing/cloth.css [app-client] (css) */
+.clothing {
+  background: #f0f0f0;
+  flex-direction: column;
+  padding: 70px;
+  display: flex;
+}
+
+.clothing-header {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.clothing-header h2 {
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #00000080;
+  font-family: serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.clothing-header p {
+  justify-content: center;
+  margin-top: 10px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+  font-weight: 100;
+  display: flex;
+}
+
+.clothing-button {
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 15px;
+  display: flex;
+}
+
+.clothingbtn {
+  color: #fff;
+  cursor: pointer;
+  background: #575758;
+  border-radius: 10px;
+  width: 100px;
+  padding: 10px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+}
+
+.clothingbtn.active {
+  color: #fff;
+  background: #a59d9d;
+}
+
+.clothingbtn:hover {
+  background: #939393;
+}
+
+/*# sourceMappingURL=component_clothing_cloth_css_f9ee138c._.single.css.map*/

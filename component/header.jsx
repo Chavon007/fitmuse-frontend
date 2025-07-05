@@ -88,22 +88,25 @@ function Header() {
             <div className="WeDo">
               <ul>
                 <li>
-                  <p>SALE</p>
+                  <Link href="/sales">
+                    <p>SALE</p>
+                  </Link>
+                </li>
+
+                <li>
+                  <Link href="/clothing">
+                    <p>CLOTHING</p>
+                  </Link>
                 </li>
                 <li>
-                  <p>NEW IN</p>
+                  <Link href="/">
+                    <p>SHOES</p>
+                  </Link>
                 </li>
                 <li>
-                  <p>CLOTHING</p>
-                </li>
-                <li>
-                  <p>SHOES</p>
-                </li>
-                <li>
-                  <p>ACCESSORIES</p>
-                </li>
-                <li>
-                  <p>BANDS</p>
+                  <Link href="/">
+                    <p>ACCESSORIES</p>
+                  </Link>
                 </li>
               </ul>
             </div>

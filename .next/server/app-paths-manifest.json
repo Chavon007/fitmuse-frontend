@@ -1,4 +1,8 @@
 {
-  "/men/page": "app/men/page.js",
-  "/page": "app/page.js"
+  "/cart/page": "app/cart/page.js",
+  "/clothing/page": "app/clothing/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/sales/page": "app/sales/page.js",
+  "/wishlist/page": "app/wishlist/page.js"
 }

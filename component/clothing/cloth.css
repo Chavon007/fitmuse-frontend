@@ -1,0 +1,52 @@
+.clothing {
+  background: #f0f0f0;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.clothing-header {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.clothing-header h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: serif;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.clothing-header p {
+  margin-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+}
+.clothing-button {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  padding: 15px;
+  justify-content: space-around;
+  /* background: red; */
+}
+.clothingbtn {
+  /* border: 1px solid #000; */
+  padding: 10px;
+  width: 100px;
+  background: rgb(87, 87, 88);
+  color: #fff;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.clothingbtn.active {
+  background: #a59d9d;
+  color: #fff;
+}
+.clothingbtn:hover {
+  background: rgb(147, 147, 147);
+}

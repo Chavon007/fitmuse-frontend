@@ -292,8 +292,15 @@ function Header() {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    children: "SALE"
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    href: "/sales",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        children: "SALE"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/component/header.jsx",
+                                                        lineNumber: 92,
+                                                        columnNumber: 21
+                                                    }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/component/header.jsx",
                                                     lineNumber: 91,
@@ -305,21 +312,15 @@ function Header() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    children: "NEW IN"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/component/header.jsx",
-                                                    lineNumber: 94,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/component/header.jsx",
-                                                lineNumber: 93,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    children: "CLOTHING"
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    href: "/clothing",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        children: "CLOTHING"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/component/header.jsx",
+                                                        lineNumber: 98,
+                                                        columnNumber: 21
+                                                    }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/component/header.jsx",
                                                     lineNumber: 97,
@@ -331,42 +332,43 @@ function Header() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    children: "SHOES"
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    href: "/",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        children: "SHOES"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/component/header.jsx",
+                                                        lineNumber: 103,
+                                                        columnNumber: 21
+                                                    }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/component/header.jsx",
-                                                    lineNumber: 100,
+                                                    lineNumber: 102,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/component/header.jsx",
-                                                lineNumber: 99,
+                                                lineNumber: 101,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    children: "ACCESSORIES"
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    href: "/",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        children: "ACCESSORIES"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/component/header.jsx",
+                                                        lineNumber: 108,
+                                                        columnNumber: 21
+                                                    }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/component/header.jsx",
-                                                    lineNumber: 103,
+                                                    lineNumber: 107,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/component/header.jsx",
-                                                lineNumber: 102,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    children: "BANDS"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/component/header.jsx",
-                                                    lineNumber: 106,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/component/header.jsx",
-                                                lineNumber: 105,
+                                                lineNumber: 106,
                                                 columnNumber: 17
                                             }, this)
                                         ]
@@ -388,12 +390,12 @@ function Header() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ci$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CiSearch"], {}, void 0, false, {
                                                     fileName: "[project]/component/header.jsx",
-                                                    lineNumber: 113,
+                                                    lineNumber: 116,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/component/header.jsx",
-                                                lineNumber: 112,
+                                                lineNumber: 115,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -401,22 +403,11 @@ function Header() {
                                                 placeholder: "search product, articles, fqa,..."
                                             }, void 0, false, {
                                                 fileName: "[project]/component/header.jsx",
-                                                lineNumber: 115,
+                                                lineNumber: 118,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ci$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CiMicrophoneOn"], {}, void 0, false, {
-                                                    fileName: "[project]/component/header.jsx",
-                                                    lineNumber: 120,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/component/header.jsx",
-                                                lineNumber: 119,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$lu$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LuScanQrCode"], {}, void 0, false, {
                                                     fileName: "[project]/component/header.jsx",
                                                     lineNumber: 123,
                                                     columnNumber: 19
@@ -425,16 +416,27 @@ function Header() {
                                                 fileName: "[project]/component/header.jsx",
                                                 lineNumber: 122,
                                                 columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$lu$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LuScanQrCode"], {}, void 0, false, {
+                                                    fileName: "[project]/component/header.jsx",
+                                                    lineNumber: 126,
+                                                    columnNumber: 19
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/component/header.jsx",
+                                                lineNumber: 125,
+                                                columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/component/header.jsx",
-                                        lineNumber: 111,
+                                        lineNumber: 114,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/component/header.jsx",
-                                    lineNumber: 110,
+                                    lineNumber: 113,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -455,21 +457,21 @@ function Header() {
                         onClick: toggleMenu,
                         children: menuOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaTimes"], {}, void 0, false, {
                             fileName: "[project]/component/header.jsx",
-                            lineNumber: 132,
+                            lineNumber: 135,
                             columnNumber: 25
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$gi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["GiHamburgerMenu"], {}, void 0, false, {
                             fileName: "[project]/component/header.jsx",
-                            lineNumber: 132,
+                            lineNumber: 135,
                             columnNumber: 39
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/component/header.jsx",
-                        lineNumber: 131,
+                        lineNumber: 134,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/component/header.jsx",
-                    lineNumber: 130,
+                    lineNumber: 133,
                     columnNumber: 9
                 }, this)
             ]
@@ -805,6 +807,142 @@ const products = [
         price: 26.5,
         image: "/shirt1.jpg",
         varient: "shirt"
+    },
+    {
+        id: 40,
+        name: "Muscle Fit Pants",
+        desc: "Tapered athletic pants that hug your legs for a powerful look.",
+        price: 36.5,
+        image: "/shortw1.jpg",
+        varient: "short"
+    },
+    {
+        id: 41,
+        name: "Power Stretch Pants",
+        desc: "Maximum stretch for deep squats and tough workouts.",
+        price: 20.5,
+        image: "/shoertw2.jpg",
+        varient: "short"
+    },
+    {
+        id: 42,
+        name: "Core Fit Joggers",
+        desc: "Built for core training and all-day comfort.",
+        price: 30.5,
+        image: "/shoertw3.webp",
+        varient: "short"
+    },
+    {
+        id: 43,
+        name: "Flex Grip Pants",
+        desc: "Flexible fit with ankle grip for zero distractions.",
+        price: 10.5,
+        image: "/shoertw4.jpg",
+        varient: "short"
+    },
+    {
+        id: 44,
+        name: "Iron Fit Bottoms",
+        desc: "Strong, structured design that moves with intensity.",
+        price: 18.5,
+        image: "/shoertw5.jpg",
+        varient: "short"
+    },
+    {
+        id: 45,
+        name: "Lift Ready Pants",
+        desc: "Engineered for lifting days and gym confidence.",
+        price: 15.5,
+        image: "/shoertw6.jpg",
+        varient: "short"
+    },
+    {
+        id: 46,
+        name: "Sprint Taper Pants",
+        desc: "Tapered cut for speed and sleek motion.",
+        price: 26.5,
+        image: "/shoertw7.webp",
+        varient: "sh0rt"
+    },
+    {
+        id: 47,
+        name: "Grind Mode Joggers",
+        desc: "Durable pants for your no-excuses grind sessions.",
+        price: 29.5,
+        image: "/shoertw8.webp",
+        varient: "short"
+    },
+    {
+        id: 48,
+        name: "Alpha Fit Pants",
+        desc: "Elite style with muscle-supporting fabric.",
+        price: 26.5,
+        image: "/shoertw9.jpg",
+        varient: "short"
+    },
+    {
+        id: 49,
+        name: "Peak Motion Pants",
+        desc: "Designed for top performance in every rep you need.",
+        price: 25.5,
+        image: "/shoertw10.webp",
+        varient: "short"
+    },
+    {
+        id: 50,
+        name: "Lift Luxe Top",
+        desc: "Premium fit for lifting queens.",
+        price: 36.5,
+        image: "/topw1.jpg",
+        varient: "top"
+    },
+    {
+        id: 51,
+        name: "Active Curve Tank",
+        desc: "Designed to flatter and move with you anywhere.",
+        price: 26.5,
+        image: "/topw2.jpg",
+        varient: "top"
+    },
+    {
+        id: 52,
+        name: "Sweat Sculpt Tee",
+        desc: "Wicks sweat, shapes beautifully, and feels light.",
+        price: 22.5,
+        image: "/topw3.jpg",
+        varient: "top"
+    },
+    {
+        id: 53,
+        name: "Glow Fit Crop",
+        desc: "Breathable cropped top that shows strength and style.",
+        price: 18.5,
+        image: "/topw4.jpg",
+        varient: "top"
+    },
+    {
+        id: 54,
+        name: "Power Babe Tank",
+        desc: "Lightweight and fierce — for unstoppable workouts.",
+        price: 34.5,
+        image: "/topw5.jpg",
+        varient: "top"
+    },
+    {
+        id: 55,
+        name: "Flex Femme Tee",
+        desc: "Soft stretch fabric built for strong women proper use.",
+        price: 56.5,
+        image: "/topw6.jpg",
+        varient: "top"
+    },
+    {
+        id: 56,
+        name: "Sculpt Fit Top",
+        desc: "Hugs your curves while supporting every move.",
+        price: 19.5,
+        image: "/topw7.jpg",
+        varient: "top"
     }
 ];
 const __TURBOPACK__default__export__ = products;
