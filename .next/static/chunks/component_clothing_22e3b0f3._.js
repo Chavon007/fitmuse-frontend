@@ -36,7 +36,11 @@ function Allproduct() {
             44,
             52,
             56,
-            40
+            40,
+            23,
+            33,
+            35,
+            25
         ].includes(product.id));
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "tops",
@@ -169,16 +173,16 @@ function Allproduct() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaArrowRight"], {}, void 0, false, {
                         fileName: "[project]/component/clothing/allcloth.js",
-                        lineNumber: 62,
-                        columnNumber: 51
+                        lineNumber: 63,
+                        columnNumber: 9
                     }, this),
                     " ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         children: "Click here to vist our store for more products"
                     }, void 0, false, {
                         fileName: "[project]/component/clothing/allcloth.js",
-                        lineNumber: 62,
-                        columnNumber: 67
+                        lineNumber: 64,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
@@ -236,7 +240,11 @@ function Top() {
             52,
             56,
             51,
-            55
+            55,
+            33,
+            23,
+            24,
+            21
         ].includes(product.id));
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "tops",
@@ -435,7 +443,8 @@ function Short() {
             45,
             40,
             48,
-            46
+            46,
+            35
         ].includes(product.id));
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "tops",

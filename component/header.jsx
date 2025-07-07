@@ -99,12 +99,12 @@ function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="/shoes">
                     <p>SHOES</p>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="/accessories">
                     <p>ACCESSORIES</p>
                   </Link>
                 </li>

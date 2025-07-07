@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/component/shoes/mainshoes.css"],"sourcesContent":[".mainshoes {\r\n  background: #f0f0f0;\r\n  padding: 70px;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n.mainshoesheader {\r\n  text-align: center;\r\n  max-width: 500px;\r\n  margin: 0 auto;\r\n}\r\n.mainshoesheader h3 {\r\n  font-size: 30px;\r\n  text-transform: uppercase;\r\n  font-weight: bold;\r\n  font-family: serif;\r\n  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);\r\n}\r\n.mainshoesheader p {\r\n  margin-top: 10px;\r\n  font-family: \"Times New Roman\", Times, serif;\r\n  font-size: 15px;\r\n  font-weight: 100;\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 30px;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;AAMA;;;;;;AAKA;;;;;;;;AAOA"}}]
+}

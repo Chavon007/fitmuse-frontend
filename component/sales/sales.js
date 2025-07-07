@@ -1,13 +1,13 @@
-"use client"
+"use client";
 import Image from "next/image";
 import { useCart } from "@/context/cartContext";
 import { IoIosCheckmark } from "react-icons/io";
 import Link from "next/link";
-import "./sales.css"
+import "./sales.css";
 function Sales() {
   const { products } = useCart();
   const salepage = products.filter((product) =>
-    [13, 14, 15].includes(product.id)
+    [24, 13, 25,22, 14, 15,].includes(product.id)
   );
   return (
     <div className="container">
@@ -23,7 +23,8 @@ function Sales() {
         <div className="salescard">
           {salepage.map((salespro) => (
             <div className="salescontent" key={salespro.id}>
-              <Image className="pic"
+              <Image
+                className="pic"
                 src={salespro.image}
                 alt={salespro.name}
                 width={1000}
@@ -33,8 +34,8 @@ function Sales() {
                 <h3>{salespro.name}</h3>
                 <p>{salespro.desc}</p>
                 <span>
-                  High-performance wear with 4-way stretch technology. Built
-                  for squats, deadlifts, and every movement in between.
+                  High-performance wear with 4-way stretch technology. Built for
+                  squats, deadlifts, and every movement in between.
                 </span>
                 <small>
                   <IoIosCheckmark />
@@ -56,13 +57,12 @@ function Sales() {
                   <IoIosCheckmark />
                   Squat-proof guarantee
                 </small>
-                    <h6>${salespro.price}</h6>
+                <h6>${salespro.price}</h6>
                 <Link href="/cart">SHOP NOW</Link>
               </div>
             </div>
           ))}
         </div>
-
       </div>
     </div>
   );

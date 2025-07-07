@@ -1,0 +1,33 @@
+/* [project]/component/accessories/mainaccessories.css [app-client] (css) */
+.mainaccesories {
+  background: #f0f0f0;
+  flex-direction: column;
+  padding: 70px;
+  display: flex;
+}
+
+.accesoriesContent {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.accesoriesContent h3 {
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #00000080;
+  font-family: serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.accesoriesContent p {
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+  font-weight: 100;
+  display: flex;
+}
+
+/*# sourceMappingURL=component_accessories_mainaccessories_css_f9ee138c._.single.css.map*/

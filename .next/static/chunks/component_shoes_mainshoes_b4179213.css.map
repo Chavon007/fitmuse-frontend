@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/GOMYCODE/fitmuse-frontend/fitmuse/component/shoes/mainshoes.css"],"sourcesContent":[".mainshoes {\r\n  background: #f0f0f0;\r\n  padding: 70px;\r\n  display: flex;\r\n  flex-direction: column;\r\n}"],"names":[],"mappings":"AAAA","debugId":null}}]
+}

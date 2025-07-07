@@ -1,0 +1,33 @@
+/* [project]/component/shoes/mainshoes.css [app-client] (css) */
+.mainshoes {
+  background: #f0f0f0;
+  flex-direction: column;
+  padding: 70px;
+  display: flex;
+}
+
+.mainshoesheader {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.mainshoesheader h3 {
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #00000080;
+  font-family: serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.mainshoesheader p {
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 15px;
+  font-weight: 100;
+  display: flex;
+}
+
+/*# sourceMappingURL=component_shoes_mainshoes_css_f9ee138c._.single.css.map*/

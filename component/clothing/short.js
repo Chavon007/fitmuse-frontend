@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa";
 export default function Short() {
   const { addToCart, likedProduct, products } = useCart();
   const topCloth = products.filter((product) =>
-    [45, 40, 48, 46].includes(product.id)
+    [45, 40, 48, 46,35 ].includes(product.id)
   );
   return (
     <div className="tops">

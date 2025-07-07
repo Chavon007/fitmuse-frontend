@@ -363,7 +363,7 @@ function Header() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                    href: "/",
+                                                    href: "/shoes",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "SHOES"
                                                     }, void 0, false, {
@@ -383,7 +383,7 @@ function Header() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                    href: "/",
+                                                    href: "/accessories",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "ACCESSORIES"
                                                     }, void 0, false, {
@@ -966,6 +966,114 @@ const products = [
         price: 19.5,
         image: "/topw7.jpg",
         varient: "top"
+    },
+    {
+        id: 57,
+        name: "VelociRun",
+        desc: "Speed meets stability.",
+        price: 18.5,
+        image: "/shoe1.jpg",
+        varient: "shoes"
+    },
+    {
+        id: 58,
+        name: "AirThrust",
+        desc: "Power in every stride.",
+        price: 19.5,
+        image: "/shoe2.webp",
+        varient: "shoes"
+    },
+    {
+        id: 59,
+        name: "NovaStep",
+        desc: "Shine bright every step.",
+        price: 20.5,
+        image: "/shoe3.jpg",
+        varient: "shoes"
+    },
+    {
+        id: 60,
+        name: "GripCore",
+        desc: "Built tough for trails.",
+        price: 30.5,
+        image: "/shoe4.jpg",
+        varient: "shoes"
+    },
+    {
+        id: 61,
+        name: "UrbanVault",
+        desc: "Street-ready comfort.",
+        price: 15.5,
+        image: "/shoe5.jpg",
+        varient: "shoes"
+    },
+    {
+        id: 62,
+        name: "StrideFlex",
+        desc: "Lightweight sporty kicks.",
+        price: 18.5,
+        image: "/shoe6.webp",
+        varient: "shoes"
+    },
+    {
+        id: 63,
+        image: "/gym1.jpg",
+        name: "BRAND/TYPE",
+        desc: "Name and characterics",
+        price: "74,95 $",
+        discount: "121,00 $",
+        list: "(45)",
+        varient: "Accesories"
+    },
+    {
+        id: 64,
+        image: "/gym2.jpg",
+        name: "BRAND/TYPE",
+        desc: "Name and characterics",
+        price: "74,95 $",
+        discount: " 121,00 $",
+        list: "(45)",
+        varient: "Accesories"
+    },
+    {
+        id: 65,
+        image: "/gym3.jpg",
+        name: "BRAND/TYPE",
+        desc: "Name and characterics",
+        price: "74,95 $",
+        discount: " 121,00 $",
+        list: "(45)",
+        varient: "Accesories"
+    },
+    {
+        id: 66,
+        image: "/gym4.jpg",
+        name: "BRAND/TYPE",
+        desc: "Name and characterics",
+        price: "74,95 $",
+        discount: " 121,00 $",
+        list: "(45)",
+        varient: "Accesories"
+    },
+    {
+        id: 67,
+        image: "/gym5.jpg",
+        name: "BRAND/TYPE",
+        desc: "Name and characterics",
+        price: "74,95 $",
+        discount: " 121,00 $",
+        list: "(45)",
+        varient: "Accesories"
+    },
+    {
+        id: 68,
+        image: "/gym6.jpg",
+        name: "BRAND/TYPE",
+        desc: "Name and characterics",
+        price: "74,95 $",
+        discount: " 121,00 $",
+        list: "(45)",
+        varient: "Accesories"
     }
 ];
 const __TURBOPACK__default__export__ = products;

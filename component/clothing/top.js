@@ -10,7 +10,7 @@ import { FaArrowRight } from "react-icons/fa";
 export default function Top() {
   const { addToCart, likedProduct, products } = useCart();
   const topCloth = products.filter((product) =>
-    [52, 56, 51, 55].includes(product.id)
+    [52, 56, 51, 55, 33, 23, 24, 21 ].includes(product.id)
   );
   return (
     <div className="tops">

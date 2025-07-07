@@ -1,0 +1,27 @@
+.mainshoes {
+  background: #f0f0f0;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.mainshoesheader {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.mainshoesheader h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: serif;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.mainshoesheader p {
+  margin-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
