@@ -50,7 +50,7 @@
 .clothingbtn:hover {
   background: rgb(147, 147, 147);
 }
-@media (max-width) {
+@media (max-width:600px) {
   .clothing-header h2 {
     font-size: 20px;
   }
