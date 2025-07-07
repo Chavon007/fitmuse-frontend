@@ -59,7 +59,7 @@ export default function Short() {
 
       <Link className="clothinglink" href="/cart">
         <FaArrowRight />{" "}
-        <span>Click here to vist our store for more products</span>
+        <span>Click here to visit our store for more products</span>
       </Link>
     </div>
   );
