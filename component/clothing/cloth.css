@@ -50,3 +50,19 @@
 .clothingbtn:hover {
   background: rgb(147, 147, 147);
 }
+@media (max-width) {
+  .clothing-header h2 {
+    font-size: 25px;
+  }
+  .clothing-header p {
+    max-width: 210px;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  .clothingbtn{
+    width: 60px;
+    /* padding-left: 10px; */
+    font-size: 8px;
+    margin-bottom: 10px;
+  }
+}

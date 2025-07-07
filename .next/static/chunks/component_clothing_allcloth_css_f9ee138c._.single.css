@@ -122,4 +122,21 @@
   }
 }
 
+@media (width <= 600px) {
+  .tops {
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+  }
+
+  .clothinglink span {
+    font-size: 10px;
+  }
+
+  .productCardDetails {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+}
+
 /*# sourceMappingURL=component_clothing_allcloth_css_f9ee138c._.single.css.map*/

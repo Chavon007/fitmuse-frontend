@@ -110,5 +110,37 @@
   text-decoration: underline;
 }
 
+@media (width <= 600px) {
+  .salesheader h3 {
+    font-size: 25px;
+  }
+
+  .salesheader p {
+    max-width: 500px;
+    font-size: 12px;
+  }
+
+  .salescard {
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+  }
+
+  .salescontent {
+    width: 100%;
+  }
+
+  .salecontentwrite h3 {
+    font-size: 20px;
+  }
+
+  .salecontentwrite p {
+    font-size: 12px;
+  }
+
+  .salecontentwrite span {
+    font-size: 11px;
+  }
+}
+
 
 /*# sourceMappingURL=component_sales_sales_7bfb4dfd.css.map*/

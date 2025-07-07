@@ -122,6 +122,23 @@
   }
 }
 
+@media (width <= 600px) {
+  .tops {
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+  }
+
+  .clothinglink span {
+    font-size: 10px;
+  }
+
+  .productCardDetails {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+}
+
 
 /* [project]/component/clothing/cloth.css [app-client] (css) */
 .clothing {
@@ -180,6 +197,24 @@
 
 .clothingbtn:hover {
   background: #939393;
+}
+
+@media (width) {
+  .clothing-header h2 {
+    font-size: 25px;
+  }
+
+  .clothing-header p {
+    max-width: 210px;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .clothingbtn {
+    width: 60px;
+    margin-bottom: 10px;
+    font-size: 8px;
+  }
 }
 
 

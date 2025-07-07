@@ -123,4 +123,21 @@
   }
 }
 
+@media (width <= 600px) {
+  .tops2 {
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+  }
+
+  .productCardDetails {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .productCardDetails .details {
+    font-size: 12px;
+  }
+}
+
 /*# sourceMappingURL=component_accessories_accessoriescard_css_f9ee138c._.single.css.map*/

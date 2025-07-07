@@ -30,4 +30,14 @@
   display: flex;
 }
 
+@media (width <= 600px) {
+  .accesoriesContent h3 {
+    font-size: 18px;
+  }
+
+  .accesoriesContent p {
+    font-size: 10px;
+  }
+}
+
 /*# sourceMappingURL=component_accessories_mainaccessories_css_f9ee138c._.single.css.map*/

@@ -123,4 +123,30 @@
   }
 }
 
+@media (width <= 600px) {
+  .tops1 {
+    grid-template-columns: repeat(1, 3fr);
+    display: grid;
+  }
+
+  .productCardDetails {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .productCardDetails h3 {
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+
+  .productCardDetails .details {
+    font-size: 10px;
+  }
+
+  .productCardDetails .btn1 {
+    font-size: 12px;
+  }
+}
+
 /*# sourceMappingURL=component_shoes_shoecard_css_f9ee138c._.single.css.map*/

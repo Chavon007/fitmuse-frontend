@@ -33,8 +33,8 @@
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in;
 }
-.salescontent:hover{
-    transform: scale(1.05);
+.salescontent:hover {
+  transform: scale(1.05);
 }
 .salescontent .pic {
   width: 100%;
@@ -94,4 +94,29 @@
 .salecontentwrite a:hover {
   background: blue;
   text-decoration: underline;
+}
+@media (max-width: 600px) {
+  .salesheader h3 {
+    font-size: 25px;
+  }
+  .salesheader p {
+    max-width: 500px;
+    font-size: 12px;
+  }
+  .salescard {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .salescontent{
+    width: 100%;
+  }
+  .salecontentwrite h3{
+    font-size: 20px;
+  }
+  .salecontentwrite p{
+    font-size: 12px;
+  }
+  .salecontentwrite span{
+    font-size: 11px;
+  }
 }

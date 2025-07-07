@@ -123,6 +123,32 @@
   }
 }
 
+@media (width <= 600px) {
+  .tops1 {
+    grid-template-columns: repeat(1, 3fr);
+    display: grid;
+  }
+
+  .productCardDetails {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .productCardDetails h3 {
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+
+  .productCardDetails .details {
+    font-size: 10px;
+  }
+
+  .productCardDetails .btn1 {
+    font-size: 12px;
+  }
+}
+
 
 /* [project]/component/shoes/mainshoes.css [app-client] (css) */
 .mainshoes {
@@ -154,6 +180,16 @@
   font-size: 15px;
   font-weight: 100;
   display: flex;
+}
+
+@media (width <= 600px) {
+  .mainshoesheader h3 {
+    font-size: 18px;
+  }
+
+  .mainshoesheader p {
+    font-size: 10px;
+  }
 }
 
 

@@ -57,4 +57,22 @@
   background: #939393;
 }
 
+@media (width) {
+  .clothing-header h2 {
+    font-size: 25px;
+  }
+
+  .clothing-header p {
+    max-width: 210px;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .clothingbtn {
+    width: 60px;
+    margin-bottom: 10px;
+    font-size: 8px;
+  }
+}
+
 /*# sourceMappingURL=component_clothing_cloth_css_f9ee138c._.single.css.map*/
