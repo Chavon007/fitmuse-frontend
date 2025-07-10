@@ -140,6 +140,13 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  .tops2 {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+  }
+}
+
 
 /* [project]/component/accessories/mainaccessories.css [app-client] (css) */
 .mainaccesories {
@@ -180,6 +187,12 @@
 
   .accesoriesContent p {
     font-size: 10px;
+  }
+}
+
+@media (width >= 601px) and (width <= 850px) {
+  .mainaccesories {
+    width: 110%;
   }
 }
 

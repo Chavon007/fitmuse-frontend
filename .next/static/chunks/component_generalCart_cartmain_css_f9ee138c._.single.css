@@ -40,4 +40,18 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  .cartDisplay {
+    width: 90%;
+  }
+
+  .cartDisplay-header h2 {
+    font-size: 15px;
+  }
+
+  .cartDisplay-header p {
+    font-size: 25px;
+  }
+}
+
 /*# sourceMappingURL=component_generalCart_cartmain_css_f9ee138c._.single.css.map*/

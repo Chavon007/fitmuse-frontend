@@ -27,10 +27,15 @@
 }
 
 @media (max-width: 600px) {
-    .mainshoesheader h3{
-        font-size: 18px;
-    }
-    .mainshoesheader p{
-        font-size: 10px;
-    }
+  .mainshoesheader h3 {
+    font-size: 18px;
+  }
+  .mainshoesheader p {
+    font-size: 10px;
+  }
+}
+@media (min-width: 601px) and (max-width: 850px) {
+  .mainshoes {
+    width: 110%;
+  }
 }

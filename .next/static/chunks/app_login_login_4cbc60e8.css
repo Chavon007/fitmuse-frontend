@@ -146,5 +146,30 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  .login {
+    width: 110%;
+    height: 56vh;
+  }
+
+  .newform {
+    justify-content: center;
+    height: 30vh;
+    display: flex;
+  }
+}
+
+@media (width >= 851px) and (width <= 1024px) {
+  .login {
+    width: 100%;
+    height: 56vh;
+  }
+
+  .newform {
+    justify-content: center;
+    display: flex;
+  }
+}
+
 
 /*# sourceMappingURL=app_login_login_4cbc60e8.css.map*/

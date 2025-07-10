@@ -140,4 +140,11 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  .tops2 {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+  }
+}
+
 /*# sourceMappingURL=component_accessories_accessoriescard_css_f9ee138c._.single.css.map*/

@@ -40,4 +40,10 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  .mainaccesories {
+    width: 110%;
+  }
+}
+
 /*# sourceMappingURL=component_accessories_mainaccessories_css_f9ee138c._.single.css.map*/

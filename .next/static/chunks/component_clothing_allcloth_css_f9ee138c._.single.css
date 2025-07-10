@@ -38,7 +38,8 @@
 .productCardDetails {
   background: #fff;
   width: 100%;
-  height: 30vh;
+  height: auto;
+  padding: 10px;
 }
 
 .productCardDetails h3 {
@@ -136,6 +137,18 @@
     flex-direction: column;
     justify-content: center;
     display: flex;
+  }
+}
+
+@media (width >= 601px) and (width <= 850px) {
+  .tops {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+  }
+
+  .productCardDetails {
+    height: auto;
+    padding: 10px;
   }
 }
 

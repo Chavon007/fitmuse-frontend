@@ -116,12 +116,18 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .productCardDetails{
+  .productCardDetails {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .productCardDetails .details{
+  .productCardDetails .details {
     font-size: 12px;
+  }
+}
+@media (min-width: 601px) and (max-width: 850px) {
+  .tops2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }

@@ -107,16 +107,25 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .salescontent{
+  .salescontent {
     width: 100%;
   }
-  .salecontentwrite h3{
+  .salecontentwrite h3 {
     font-size: 20px;
   }
-  .salecontentwrite p{
+  .salecontentwrite p {
     font-size: 12px;
   }
-  .salecontentwrite span{
+  .salecontentwrite span {
     font-size: 11px;
+  }
+}
+@media (min-width: 601px) and (max-width: 850px) {
+  .sales {
+    width: 110%;
+  }
+  .salescard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }

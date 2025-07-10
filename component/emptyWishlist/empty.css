@@ -41,24 +41,34 @@
   background: blue;
   text-decoration: underline;
 }
- @media (max-width: 600px) {
-  .emptyWishList{
+@media (max-width: 600px) {
+  .emptyWishList {
     width: 90%;
     /* background: red; */
-   }
-  .emptyIcon{
+  }
+  .emptyIcon {
     font-size: 15px;
-  } 
-   .emptyWishList h4{
+  }
+  .emptyWishList h4 {
     font-size: 18px;
   }
-  .emptyWishList p{
-    width: 280px; 
-     /* background: red;  */
-     text-align: center;
+  .emptyWishList p {
+    width: 280px;
+    /* background: red;  */
+    text-align: center;
     font-size: 10px;
   }
-  .emptyWishList a{
+  .emptyWishList a {
     font-size: 10px;
   }
-} 
+}
+@media (min-width: 601px) and (max-width: 850px) {
+  .emptyWishList p {
+    text-align: center;
+    /* background: red; */
+    font-size: 12px;
+  }
+  .emptyWishList h4 {
+    font-size: 18px;
+  }
+}

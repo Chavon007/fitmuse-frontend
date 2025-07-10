@@ -115,5 +115,29 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  .SignUp1 {
+    width: 100%;
+    height: 56vh;
+  }
+
+  .signUp2 {
+    justify-content: center;
+    display: flex;
+  }
+}
+
+@media (width >= 851px) and (width <= 1024px) {
+  .SignUp1 {
+    width: 100%;
+    height: 56vh;
+  }
+
+  .signUp2 {
+    justify-content: center;
+    display: flex;
+  }
+}
+
 
 /*# sourceMappingURL=app_signUp_signUp_41597965.css.map*/

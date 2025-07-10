@@ -24,4 +24,18 @@ button span {
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  button {
+    position: relative;
+  }
+
+  button span {
+    color: red;
+    font-size: 8px;
+    position: absolute;
+    top: 4px;
+    right: 7px;
+  }
+}
+
 /*# sourceMappingURL=component_carticonmain_carticonmain_css_f9ee138c._.single.css.map*/

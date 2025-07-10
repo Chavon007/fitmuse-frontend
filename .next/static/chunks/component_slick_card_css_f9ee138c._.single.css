@@ -114,4 +114,15 @@
   }
 }
 
+@media (width <= 850px) {
+  .newcarddetails .CardName {
+    padding-top: 5px;
+    font-size: 12px;
+  }
+
+  .CardDesc {
+    font-size: 11px;
+  }
+}
+
 /*# sourceMappingURL=component_slick_card_css_f9ee138c._.single.css.map*/

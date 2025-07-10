@@ -48,6 +48,24 @@ function CardSlidermen() {
                     infinite: true,
                     dots: true
                 }
+            },
+            {
+                breakpoint: 850,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
             }
         ]
     };
@@ -68,7 +86,7 @@ function CardSlidermen() {
                                 height: 100
                             }, void 0, false, {
                                 fileName: "[project]/component/slick/cardmen.js",
-                                lineNumber: 42,
+                                lineNumber: 60,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -80,12 +98,12 @@ function CardSlidermen() {
                                 },
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ci$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CiHeart"], {}, void 0, false, {
                                     fileName: "[project]/component/slick/cardmen.js",
-                                    lineNumber: 57,
+                                    lineNumber: 75,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/component/slick/cardmen.js",
-                                lineNumber: 49,
+                                lineNumber: 67,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -93,7 +111,7 @@ function CardSlidermen() {
                                 children: "-42% off"
                             }, void 0, false, {
                                 fileName: "[project]/component/slick/cardmen.js",
-                                lineNumber: 59,
+                                lineNumber: 77,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -104,7 +122,7 @@ function CardSlidermen() {
                                         children: product.name
                                     }, void 0, false, {
                                         fileName: "[project]/component/slick/cardmen.js",
-                                        lineNumber: 61,
+                                        lineNumber: 79,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -112,7 +130,7 @@ function CardSlidermen() {
                                         children: product.desc
                                     }, void 0, false, {
                                         fileName: "[project]/component/slick/cardmen.js",
-                                        lineNumber: 62,
+                                        lineNumber: 80,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
@@ -125,13 +143,13 @@ function CardSlidermen() {
                                                 children: product.discount
                                             }, void 0, false, {
                                                 fileName: "[project]/component/slick/cardmen.js",
-                                                lineNumber: 64,
+                                                lineNumber: 82,
                                                 columnNumber: 36
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/component/slick/cardmen.js",
-                                        lineNumber: 63,
+                                        lineNumber: 81,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
@@ -139,40 +157,40 @@ function CardSlidermen() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$io5$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["IoStarSharp"], {}, void 0, false, {
                                                 fileName: "[project]/component/slick/cardmen.js",
-                                                lineNumber: 67,
+                                                lineNumber: 85,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$io5$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["IoStarSharp"], {}, void 0, false, {
                                                 fileName: "[project]/component/slick/cardmen.js",
-                                                lineNumber: 68,
+                                                lineNumber: 86,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$io5$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["IoStarSharp"], {}, void 0, false, {
                                                 fileName: "[project]/component/slick/cardmen.js",
-                                                lineNumber: 69,
+                                                lineNumber: 87,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$io5$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["IoStarSharp"], {}, void 0, false, {
                                                 fileName: "[project]/component/slick/cardmen.js",
-                                                lineNumber: 70,
+                                                lineNumber: 88,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$io5$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["IoStarSharp"], {}, void 0, false, {
                                                 fileName: "[project]/component/slick/cardmen.js",
-                                                lineNumber: 71,
+                                                lineNumber: 89,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: product.list
                                             }, void 0, false, {
                                                 fileName: "[project]/component/slick/cardmen.js",
-                                                lineNumber: 73,
+                                                lineNumber: 91,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/component/slick/cardmen.js",
-                                        lineNumber: 66,
+                                        lineNumber: 84,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -185,34 +203,34 @@ function CardSlidermen() {
                                         children: "Add to cart"
                                     }, void 0, false, {
                                         fileName: "[project]/component/slick/cardmen.js",
-                                        lineNumber: 75,
+                                        lineNumber: 93,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/component/slick/cardmen.js",
-                                lineNumber: 60,
+                                lineNumber: 78,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/component/slick/cardmen.js",
-                        lineNumber: 41,
+                        lineNumber: 59,
                         columnNumber: 13
                     }, this)
                 }, index, false, {
                     fileName: "[project]/component/slick/cardmen.js",
-                    lineNumber: 40,
+                    lineNumber: 58,
                     columnNumber: 11
                 }, this))
         }, void 0, false, {
             fileName: "[project]/component/slick/cardmen.js",
-            lineNumber: 38,
+            lineNumber: 56,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/component/slick/cardmen.js",
-        lineNumber: 37,
+        lineNumber: 55,
         columnNumber: 5
     }, this);
 }

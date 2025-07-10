@@ -149,4 +149,11 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  .tops1 {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+  }
+}
+
 /*# sourceMappingURL=component_shoes_shoecard_css_f9ee138c._.single.css.map*/

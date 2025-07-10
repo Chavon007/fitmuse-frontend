@@ -40,4 +40,10 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  .mainshoes {
+    width: 110%;
+  }
+}
+
 /*# sourceMappingURL=component_shoes_mainshoes_css_f9ee138c._.single.css.map*/

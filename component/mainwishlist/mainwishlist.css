@@ -28,7 +28,7 @@
 }
 
 @media (max-width: 600px) {
-   .mainwish-header {
+  .mainwish-header {
     width: 90%;
     margin: 0 auto;
   }
@@ -36,10 +36,28 @@
     width: 250px;
     /* background: red; */
     font-size: 18px;
-    padding: 5px; 
-     /* background: red;  */
-   }
-  .mainwish-header p{
+    padding: 5px;
+    /* background: red;  */
+  }
+  .mainwish-header p {
     font-size: 12px;
   }
-} 
+}
+@media (min-width: 601px) and (max-width: 850px) {
+  .mainWishlist1 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background: red; */
+    align-items: center;
+    height: 50vh;
+    margin: 0 auto;
+  }
+  .mainwish-header h2 {
+    font-size: 15px;
+  }
+  .mainwish-header p {
+    font-size: 10px;
+  }
+}

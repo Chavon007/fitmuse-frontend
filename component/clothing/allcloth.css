@@ -10,6 +10,7 @@
   height: auto;
   transition: 0.3s ease-in;
   cursor: pointer;
+  height: auto;
 }
 .mainTop:hover {
   transform: scale(1.05);
@@ -33,7 +34,8 @@
   background: #fff;
   width: 100%;
   /* padding-bottom: 30px; */
-  height: 30vh;
+  height: auto;
+  padding: 10px;
 }
 .productCardDetails h3 {
   padding-left: 8px;
@@ -115,12 +117,22 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .clothinglink span{
+  .clothinglink span {
     font-size: 10px;
   }
-  .productCardDetails{
+  .productCardDetails {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+}
+@media (min-width: 601px) and (max-width: 850px) {
+  .tops {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .productCardDetails {
+    height: auto;
+    padding: 10px;
   }
 }

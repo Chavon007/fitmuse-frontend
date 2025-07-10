@@ -142,5 +142,16 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  .sales {
+    width: 110%;
+  }
+
+  .salescard {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+  }
+}
+
 
 /*# sourceMappingURL=component_sales_sales_7bfb4dfd.css.map*/

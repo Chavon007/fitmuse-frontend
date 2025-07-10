@@ -70,6 +70,17 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  .emptyWishList p {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .emptyWishList h4 {
+    font-size: 18px;
+  }
+}
+
 
 /* [project]/component/wishList/wishlist.css [app-client] (css) */
 .wishlist1 {
@@ -163,6 +174,21 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  .wishlist1 {
+    gap: 10px;
+  }
+
+  .wishlist-content p {
+    font-size: 11px;
+  }
+
+  .wishlist-content h3 {
+    padding-top: 5px;
+    font-size: 12px;
+  }
+}
+
 
 /* [project]/component/mainwishlist/mainwishlist.css [app-client] (css) */
 .mainWishlist1 {
@@ -210,6 +236,26 @@
 
   .mainwish-header p {
     font-size: 12px;
+  }
+}
+
+@media (width >= 601px) and (width <= 850px) {
+  .mainWishlist1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .mainwish-header h2 {
+    font-size: 15px;
+  }
+
+  .mainwish-header p {
+    font-size: 10px;
   }
 }
 

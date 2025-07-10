@@ -149,6 +149,13 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  .tops1 {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+  }
+}
+
 
 /* [project]/component/shoes/mainshoes.css [app-client] (css) */
 .mainshoes {
@@ -189,6 +196,12 @@
 
   .mainshoesheader p {
     font-size: 10px;
+  }
+}
+
+@media (width >= 601px) and (width <= 850px) {
+  .mainshoes {
+    width: 110%;
   }
 }
 

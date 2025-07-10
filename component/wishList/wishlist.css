@@ -82,3 +82,15 @@
     right: 1rem !important;
   }
 }
+@media (min-width: 601px) and (max-width: 850px) {
+  .wishlist1 {
+    gap: 10px;
+  }
+  .wishlist-content p {
+    font-size: 11px;
+  }
+  .wishlist-content h3 {
+    font-size: 12px;
+    padding-top: 5px;
+  }
+}

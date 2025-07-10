@@ -70,4 +70,15 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  .emptyWishList p {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .emptyWishList h4 {
+    font-size: 18px;
+  }
+}
+
 /*# sourceMappingURL=component_emptyWishlist_empty_css_f9ee138c._.single.css.map*/

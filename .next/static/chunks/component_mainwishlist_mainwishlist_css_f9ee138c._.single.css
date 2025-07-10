@@ -47,4 +47,24 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  .mainWishlist1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .mainwish-header h2 {
+    font-size: 15px;
+  }
+
+  .mainwish-header p {
+    font-size: 10px;
+  }
+}
+
 /*# sourceMappingURL=component_mainwishlist_mainwishlist_css_f9ee138c._.single.css.map*/

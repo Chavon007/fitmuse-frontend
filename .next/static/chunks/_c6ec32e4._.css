@@ -379,5 +379,16 @@
   }
 }
 
+@media (width <= 850px) {
+  .newcarddetails .CardName {
+    padding-top: 5px;
+    font-size: 12px;
+  }
+
+  .CardDesc {
+    font-size: 11px;
+  }
+}
+
 
 /*# sourceMappingURL=_c6ec32e4._.css.map*/

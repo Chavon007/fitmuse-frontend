@@ -90,4 +90,19 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  .wishlist1 {
+    gap: 10px;
+  }
+
+  .wishlist-content p {
+    font-size: 11px;
+  }
+
+  .wishlist-content h3 {
+    padding-top: 5px;
+    font-size: 12px;
+  }
+}
+
 /*# sourceMappingURL=component_wishList_wishlist_css_f9ee138c._.single.css.map*/

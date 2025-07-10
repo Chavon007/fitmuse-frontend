@@ -152,5 +152,61 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  .storeheader h2 {
+    font-size: 20px;
+  }
+
+  .storeheader p {
+    font-size: 12px;
+  }
+
+  .store-location {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .store-address {
+    width: 100%;
+  }
+
+  .store-map {
+    display: none;
+  }
+}
+
+@media (width >= 851px) and (width <= 1024px) {
+  body {
+    height: fit-content;
+  }
+
+  .storeheader h2 {
+    font-size: 20px;
+  }
+
+  .storeheader p {
+    font-size: 12px;
+  }
+
+  .store-location {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .store-address {
+    width: 100%;
+  }
+
+  .store-map {
+    display: none;
+  }
+}
+
 
 /*# sourceMappingURL=component_storeComp_store_6cd9a5f4.css.map*/

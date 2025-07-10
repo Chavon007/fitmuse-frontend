@@ -1112,5 +1112,147 @@
   }
 }
 
+@media (width >= 601px) and (width <= 850px) {
+  body {
+    height: fit-content;
+  }
+
+  .Header, .banner, .trend-header {
+    width: 110%;
+  }
+
+  .trend-content h2 {
+    font-size: 18px;
+  }
+
+  .summer {
+    width: 110%;
+  }
+
+  .summer-content-header h2 {
+    font-size: 18px;
+  }
+
+  .wide-card {
+    width: 200px !important;
+  }
+
+  .normal-card {
+    width: 160px !important;
+  }
+
+  .about {
+    width: 110%;
+  }
+
+  .about_text {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    width: 60% !important;
+  }
+
+  .about_text h3 {
+    font-size: 18px;
+  }
+
+  .about_text p {
+    max-width: 300px;
+    font-size: 12px;
+  }
+
+  .about-image {
+    width: 50% !important;
+  }
+
+  .accesories {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    display: grid;
+  }
+
+  .footer, .foot, .mainsupport {
+    width: 110%;
+  }
+
+  .mainStore {
+    width: 100%;
+    height: 60vh;
+    padding-bottom: 10px;
+  }
+
+  .mainwishlist {
+    width: 110%;
+    height: 59vh;
+  }
+
+  .mainCart {
+    width: 110%;
+  }
+}
+
+@media (width >= 851px) and (width <= 1024px) {
+  body {
+    height: fit-content;
+  }
+
+  .Header, .banner, .trend-header, .summer {
+    width: 100%;
+  }
+
+  .wide-card {
+    width: 280px !important;
+  }
+
+  .normal-card {
+    width: 160px !important;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .about_text {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    width: 50% !important;
+  }
+
+  .about_text h3 {
+    font-size: 18px;
+  }
+
+  .about_text p {
+    max-width: 300px;
+    font-size: 15px;
+    font-weight: 100;
+  }
+
+  .about-image {
+    width: 55% !important;
+  }
+
+  .accesories {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    display: grid;
+  }
+
+  .footer, .foot, .mainsupport {
+    width: 100%;
+  }
+
+  .mainStore {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .mainwishlist, .mainCart {
+    width: 100%;
+  }
+}
+
 
 /*# sourceMappingURL=%5Broot-of-the-server%5D__501b62d3._.css.map*/

@@ -258,5 +258,12 @@
   }
 }
 
+@media (width >= 600px) and (width <= 850px) {
+  .support-faq h2 {
+    max-width: 300px;
+    font-size: 16px;
+  }
+}
+
 
 /*# sourceMappingURL=component_support1_support_7507ace3.css.map*/
